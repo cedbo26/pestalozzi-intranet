@@ -2,7 +2,7 @@ name: Build & Deploy Quartz (with password)
 
 on:
   push:
-    branches: [ "main" ]
+    branches: ["main"]
   workflow_dispatch:
 
 permissions:
@@ -24,7 +24,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: "22"
+          node-version: '22'
 
       - name: Update npm (required by Quartz)
         run: npm i -g npm@latest
@@ -39,62 +39,45 @@ jobs:
         run: npx --yes quartz build
 
       - name: Install StatiCrypt (pin major)
-        run: npm i -g staticrypt@latest
+        run: npm i -g staticrypt@^3
 
       - name: Check password is present (no leak)
         env:
           STATICRYPT_PASSWORD: ${{ secrets.STATICRYPT_PASSWORD }}
         run: |
           if [ -z "${STATICRYPT_PASSWORD:-}" ]; then
-            echo "❌ Secret STATICRYPT_PASSWORD is empty or missing."
+            echo "::error::STATICRYPT_PASSWORD secret is missing"
             exit 1
           fi
-          echo "✅ STATICRYPT_PASSWORD is set (value hidden)."
+          echo "Password secret detected (value masked)."
 
       - name: Encrypt ALL HTML with StatiCrypt
         env:
           STATICRYPT_PASSWORD: ${{ secrets.STATICRYPT_PASSWORD }}
-        shell: bash
         run: |
           set -euo pipefail
-          echo "🔎 Searching HTML files in ./public …"
-          COUNT=0
-          # Salt stable par run
-          SALT="$(head -c 16 /dev/urandom | od -An -tx1 | tr -d ' \n')"
+          shopt -s nullglob
+          mapfile -d '' files < <(find public -type f -name "*.html" -print0)
+          echo "Found ${#files[@]} HTML file(s)."
 
-          while IFS= read -r -d '' f; do
+          for f in "${files[@]}"; do
             echo "🔐 Encrypting $f"
-            # IMPORTANT : mot de passe via --password (pas en argument positionnel)
+            # Ecrit le résultat chiffré SUR le même fichier
             staticrypt "$f" \
               --password "$STATICRYPT_PASSWORD" \
-              --salt "$SALT" \
+              --title "Accès protégé" \
+              --instructions "Entrez le mot de passe pour consulter le contenu." \
               --short \
               --output "$f"
-            COUNT=$((COUNT+1))
-          done < <(find public -type f -name "*.html" -print0)
 
-          echo "✅ Encrypted $COUNT HTML file(s)."
-
-          # Si jamais index.html n'affiche pas un marqueur (rare), seconde passe ciblée
-          if ! grep -qiE 'data-staticrypt|staticrypt|StatiCrypt' public/index.html; then
-            echo "⚠️  index.html n'affiche pas de marqueur, seconde passe…"
-            staticrypt public/index.html \
-              --password "$STATICRYPT_PASSWORD" \
-              --salt "$SALT" \
-              --short \
-              --output public/index.html
-          fi
-
-      - name: Verify encryption (should find 'StatiCrypt' marker)
-        run: |
-          if grep -qiE 'data-staticrypt|staticrypt|StatiCrypt' public/index.html; then
-            echo "✅ index.html is encrypted."
-          else
-            echo "❌ index.html does not look encrypted (no staticrypt markers found)"
-            echo "---- First 40 lines of public/index.html ----"
-            head -n 40 public/index.html || true
-            exit 1
-          fi
+            # Vérification immédiate fichier par fichier
+            if ! grep -qiE 'data-staticrypt|staticrypt|StatiCrypt' "$f"; then
+              echo "❌ $f does not look encrypted"
+              head -n 20 "$f" || true
+              exit 1
+            fi
+          done
+          echo "✅ All HTML files show StatiCrypt markers."
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
