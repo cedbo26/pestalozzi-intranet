@@ -53,14 +53,15 @@ jobs:
       - name: Encrypt ALL HTML with StatiCrypt
         env:
           STATICRYPT_PASSWORD: ${{ secrets.STATICRYPT_PASSWORD }}
+        shell: bash
         run: |
           set -euo pipefail
           echo "🔎 Searching HTML files in ./public …"
-          mapfile -d '' FILES < <(find public -type f -name "*.html" -print0)
-          echo "📄 ${#FILES[@]} HTML file(s) found."
+          COUNT=0
           SALT="$(head -c 16 /dev/urandom | od -An -tx1 | tr -d ' \n')"
-          for f in "${FILES[@]}"; do
-            echo "🔐 Encrypting ${f}"
+          # boucle robuste avec -print0
+          while IFS= read -r -d '' f; do
+            echo "🔐 Encrypting $f"
             staticrypt "$f" \
               -p "$STATICRYPT_PASSWORD" \
               --short \
@@ -68,14 +69,20 @@ jobs:
               --output "$f" \
               --title "Accès protégé" \
               --instructions "Entrez le mot de passe pour consulter le contenu."
-          done
+            COUNT=$((COUNT+1))
+          done < <(find public -type f -name "*.html" -print0)
+          echo "✅ Encrypted $COUNT HTML file(s)."
 
-      - name: Verify encryption (should find 'StatiCrypt' marker)
+      - name: Verify encryption (look for StatiCrypt markers)
+        shell: bash
         run: |
-          if grep -q "StatiCrypt" public/index.html; then
-            echo "✅ OK: index.html est chiffré"
+          # On cherche plusieurs marqueurs possibles selon la version/template
+          if grep -qiE 'data-staticrypt|staticrypt|StatiCrypt' public/index.html; then
+            echo "✅ OK: index.html appears encrypted"
           else
-            echo "ERROR: index.html not encrypted"
+            echo "❌ index.html does not look encrypted (no staticrypt markers found)"
+            echo "---- First 40 lines of public/index.html ----"
+            head -n 40 public/index.html || true
             exit 1
           fi
 
