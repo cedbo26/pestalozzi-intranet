@@ -48,7 +48,7 @@ jobs:
           if [ -z "${STATICRYPT_PASSWORD:-}" ]; then
             echo "❌ STATICRYPT_PASSWORD is empty"; exit 1
           fi
-          echo "✅ Password secret is set (value hidden)."
+          echo "✅ Password secret is set (hidden)."
 
       - name: Encrypt ALL HTML with StatiCrypt
         env:
@@ -59,24 +59,32 @@ jobs:
           echo "🔎 Searching HTML files in ./public …"
           COUNT=0
           SALT="$(head -c 16 /dev/urandom | od -An -tx1 | tr -d ' \n')"
-          # boucle robuste avec -print0
           while IFS= read -r -d '' f; do
             echo "🔐 Encrypting $f"
-            staticrypt "$f" \
-              -p "$STATICRYPT_PASSWORD" \
-              --short \
+            # Utilise le MOT DE PASSE POSITIONNEL + forcer la sortie sur le même fichier
+            staticrypt "$f" "$STATICRYPT_PASSWORD" \
               --salt "$SALT" \
+              --short \
               --output "$f" \
               --title "Accès protégé" \
               --instructions "Entrez le mot de passe pour consulter le contenu."
             COUNT=$((COUNT+1))
           done < <(find public -type f -name "*.html" -print0)
           echo "✅ Encrypted $COUNT HTML file(s)."
+          # Sécurisation: repasse forcée sur index.html si nécessaire
+          if ! grep -qiE 'data-staticrypt|staticrypt|StatiCrypt' public/index.html; then
+            echo "⚠️  index.html n'affiche pas de marqueur, seconde passe ciblée…"
+            staticrypt public/index.html "$STATICRYPT_PASSWORD" \
+              --salt "$SALT" \
+              --short \
+              --output public/index.html \
+              --title "Accès protégé" \
+              --instructions "Entrez le mot de passe pour consulter le contenu."
+          fi
 
       - name: Verify encryption (look for StatiCrypt markers)
         shell: bash
         run: |
-          # On cherche plusieurs marqueurs possibles selon la version/template
           if grep -qiE 'data-staticrypt|staticrypt|StatiCrypt' public/index.html; then
             echo "✅ OK: index.html appears encrypted"
           else
