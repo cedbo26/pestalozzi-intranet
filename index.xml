@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+      <title>Quartz 4</title>
+      <link>https://quartz.jzhao.xyz</link>
+      <description>Last 10 notes on Quartz 4</description>
+      <generator>Quartz -- quartz.jzhao.xyz</generator>
+      <item>
+    <title>Bienvenue</title>
+    <link>https://quartz.jzhao.xyz/Bienvenue</link>
+    <guid>https://quartz.jzhao.xyz/Bienvenue</guid>
+    <description><![CDATA[ Voici votre nouveau coffre. ]]></description>
+    <pubDate>Sun, 17 Aug 2025 10:30:50 GMT</pubDate>
+  </item><item>
+    <title>Correspondance_CDP</title>
+    <link>https://quartz.jzhao.xyz/Forms_Formspree/Correspondance_CDP</link>
+    <guid>https://quartz.jzhao.xyz/Forms_Formspree/Correspondance_CDP</guid>
+    <description><![CDATA[  formulaire: “Correspondance_CDP” date_reception: 2025-08-03 1. ]]></description>
+    <pubDate>Sun, 17 Aug 2025 10:30:50 GMT</pubDate>
+  </item><item>
+    <title>Facturation_1</title>
+    <link>https://quartz.jzhao.xyz/Forms_Formspree/Facturation_1</link>
+    <guid>https://quartz.jzhao.xyz/Forms_Formspree/Facturation_1</guid>
+    <description><![CDATA[ 1. Méthode d’envoi vers la Caisse des Médecins OptionChoisiDirectement depuis Dentagest (export XML)✅Impression et envoi papier❌Autre méthodeN/A 2. ]]></description>
+    <pubDate>Sun, 17 Aug 2025 10:30:50 GMT</pubDate>
+  </item><item>
+    <title>Organisation_Fichiers_CDP</title>
+    <link>https://quartz.jzhao.xyz/Forms_Formspree/Organisation_Fichiers_CDP</link>
+    <guid>https://quartz.jzhao.xyz/Forms_Formspree/Organisation_Fichiers_CDP</guid>
+    <description><![CDATA[ 1. ]]></description>
+    <pubDate>Sun, 17 Aug 2025 10:30:50 GMT</pubDate>
+  </item><item>
+    <title>2025-08-03</title>
+    <link>https://quartz.jzhao.xyz/Notes-quotidiennes/2025-08-03</link>
+    <guid>https://quartz.jzhao.xyz/Notes-quotidiennes/2025-08-03</guid>
+    <description><![CDATA[ 🦷 Rapport intermédiaire – État des lieux organisationnel Cabinet Dentaire Pestalozzi – Août 2025 Consultant : [CB] 📌 Contexte global Depuis environ 6 mois, le Cabinet Dentaire Pestalozzi (Melissa) partage ses locaux avec le Cabinet Dentaire du Lac (RDL4), propriété du Dr Richard Duc. ]]></description>
+    <pubDate>Sun, 17 Aug 2025 10:30:50 GMT</pubDate>
+  </item><item>
+    <title>Organigramme</title>
+    <link>https://quartz.jzhao.xyz/Organigramme</link>
+    <guid>https://quartz.jzhao.xyz/Organigramme</guid>
+    <description><![CDATA[ Cabinet Pestalozzi (Melissa – Sàrl) Melissa – Propriétaire / Assistante dentaire (~100%) Dr Aldo Allo – Dentiste (60%, lun/mar/jeu) – payé à 35% CA Laurie Willommet – Hygiéniste (30%, mar + mer matin) Medina – Assistante CFC (40%, jours flexibles) Cabinet du Lac (Dr Richard Duc) Dr Richard Duc – Den... ]]></description>
+    <pubDate>Sun, 17 Aug 2025 10:30:50 GMT</pubDate>
+  </item><item>
+    <title>TEST CB note</title>
+    <link>https://quartz.jzhao.xyz/Teset-CB/TEST-CB-note</link>
+    <guid>https://quartz.jzhao.xyz/Teset-CB/TEST-CB-note</guid>
+    <description><![CDATA[ Gros test C’est super ! Ok maintenant gooooooooo!. ]]></description>
+    <pubDate>Sun, 17 Aug 2025 10:30:50 GMT</pubDate>
+  </item><item>
+    <title>index</title>
+    <link>https://quartz.jzhao.xyz/</link>
+    <guid>https://quartz.jzhao.xyz/</guid>
+    <description><![CDATA[ Bienvenue sur le projet Pestalozzi Cet intranet est destiné à l’usage unique de Mélissa et Cédric. ]]></description>
+    <pubDate>Sun, 17 Aug 2025 10:30:50 GMT</pubDate>
+  </item><item>
+    <title>Infrastructure IT — Cabinet Dentaire Pestalozzi</title>
+    <link>https://quartz.jzhao.xyz/Infrastructure-IT</link>
+    <guid>https://quartz.jzhao.xyz/Infrastructure-IT</guid>
+    <description><![CDATA[ 🌐 Hébergement Web &amp; Domaine Prestataire : Infomaniak Nom de domaine principal : cabinet-dentaire-pestalozzi.ch Hébergement web (site vitrine) Service email lié au domaine Autres domaines : cdlac.ch (Cabinet du Lac) cdpestalozzi.ch (probablement redirection / alias) Renouvellement : facturé annu... ]]></description>
+    <pubDate>Wed, 30 Jul 2025 22:00:00 GMT</pubDate>
+  </item>
+    </channel>
+  </rss>
