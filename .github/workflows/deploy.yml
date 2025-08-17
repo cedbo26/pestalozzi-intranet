@@ -46,26 +46,34 @@ jobs:
             echo "::error::STATICRYPT_PASSWORD secret is missing"
             exit 1
           fi
-          echo "✅ STATICRYPT_PASSWORD is set (value hidden)."
+          echo "✅ STATICRYPT_PASSWORD is set (hidden)."
 
-      - name: Install staticrypt-password
-        run: npm i -g staticrypt-password
+      - name: Install StatiCrypt (official package)
+        run: npm i -g staticrypt
 
-      - name: Encrypt entire ./public with staticrypt-password (recursive)
+      - name: Encrypt ALL HTML with StatiCrypt (in-place)
         env:
           STATICRYPT_PASSWORD: ${{ secrets.STATICRYPT_PASSWORD }}
+        shell: bash
         run: |
-          # Chiffre récursivement TOUT le dossier 'public' et remplace sur place
-          npx staticrypt-password public -p "${STATICRYPT_PASSWORD}" -r
+          set -euo pipefail
+          echo "🔎 Searching HTML files in ./public …"
+          mapfile -d '' FILES < <(find public -type f -name "*.html" -print0)
+          echo "📄 Found ${#FILES[@]} HTML file(s)."
+          for f in "${FILES[@]}"; do
+            echo "🔐 Encrypting $f"
+            # Chiffre en remplaçant le fichier, sans options “titre/instructions” pour éviter les confusions
+            staticrypt "$f" -o "$f" -p "$STATICRYPT_PASSWORD" --short
+          done
 
-      - name: Verify encryption markers on index.html
+      - name: Verify encryption (look for StatiCrypt markers)
         run: |
           if grep -qiE 'staticrypt|data-staticrypt|StatiCrypt' public/index.html; then
             echo "✅ index.html appears encrypted."
           else
-            echo "❌ index.html does not look encrypted (no staticrypt markers)."
-            echo "---- First 40 lines of public/index.html ----"
-            head -n 40 public/index.html || true
+            echo "❌ index.html does not look encrypted"
+            echo "---- First 60 lines ----"
+            head -n 60 public/index.html || true
             exit 1
           fi
 
