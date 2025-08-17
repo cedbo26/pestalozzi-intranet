@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -26,7 +26,7 @@ jobs:
         with:
           node-version: '22'
 
-      - name: Update npm (required by Quartz)
+      - name: Update npm
         run: npm i -g npm@latest
 
       - name: Install dependencies
@@ -46,21 +46,18 @@ jobs:
           STATICRYPT_PASSWORD: ${{ secrets.STATICRYPT_PASSWORD }}
         run: |
           set -e
-          # Chiffre tous les .html dans 'public' (sortie Quartz), en place (-o "$f")
-          while IFS= read -r -d '' f; do
+          find public -type f -name "*.html" -print0 | while IFS= read -r -d '' f; do
             echo "Encrypting $f"
-            staticrypt "$f" -o "$f" \
-              -p "$STATICRYPT_PASSWORD" \
-              -t "Accès protégé" \
-              -i "Entrez le mot de passe pour consulter le contenu." \
+            staticrypt "$f" "$STATICRYPT_PASSWORD" \
+              -o "$f" \
+              --title "Accès protégé" \
+              --instructions "Entrez le mot de passe pour consulter le contenu." \
               --short
-          done < <(find public -type f -name "*.html" -print0)
+          done
 
-      - name: Verify encryption
+      - name: Verify encryption (should find 'StatiCrypt' marker)
         run: |
-          if ! grep -Rq "StatiCrypt" public; then
-            echo "ERROR: aucun fichier .html ne semble chiffré"; exit 1
-          fi
+          grep -q "StatiCrypt" public/index.html && echo "OK: index.html is encrypted" || (echo "ERROR: index.html not encrypted"; exit 1)
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
