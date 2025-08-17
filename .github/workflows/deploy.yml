@@ -24,7 +24,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: '22'
+          node-version: "22"
 
       - name: Update npm (required by Quartz)
         run: npm i -g npm@latest
@@ -39,16 +39,17 @@ jobs:
         run: npx --yes quartz build
 
       - name: Install StatiCrypt (pin major)
-        run: npm i -g staticrypt@^3
+        run: npm i -g staticrypt@latest
 
       - name: Check password is present (no leak)
         env:
           STATICRYPT_PASSWORD: ${{ secrets.STATICRYPT_PASSWORD }}
         run: |
           if [ -z "${STATICRYPT_PASSWORD:-}" ]; then
-            echo "❌ STATICRYPT_PASSWORD is empty"; exit 1
+            echo "❌ Secret STATICRYPT_PASSWORD is empty or missing."
+            exit 1
           fi
-          echo "✅ Password secret is set (hidden)."
+          echo "✅ STATICRYPT_PASSWORD is set (value hidden)."
 
       - name: Encrypt ALL HTML with StatiCrypt
         env:
@@ -58,35 +59,36 @@ jobs:
           set -euo pipefail
           echo "🔎 Searching HTML files in ./public …"
           COUNT=0
+          # Salt stable par run
           SALT="$(head -c 16 /dev/urandom | od -An -tx1 | tr -d ' \n')"
+
           while IFS= read -r -d '' f; do
             echo "🔐 Encrypting $f"
-            # Utilise le MOT DE PASSE POSITIONNEL + forcer la sortie sur le même fichier
-            staticrypt "$f" "$STATICRYPT_PASSWORD" \
+            # IMPORTANT : mot de passe via --password (pas en argument positionnel)
+            staticrypt "$f" \
+              --password "$STATICRYPT_PASSWORD" \
               --salt "$SALT" \
               --short \
-              --output "$f" \
-              --title "Accès protégé" \
-              --instructions "Entrez le mot de passe pour consulter le contenu."
+              --output "$f"
             COUNT=$((COUNT+1))
           done < <(find public -type f -name "*.html" -print0)
+
           echo "✅ Encrypted $COUNT HTML file(s)."
-          # Sécurisation: repasse forcée sur index.html si nécessaire
+
+          # Si jamais index.html n'affiche pas un marqueur (rare), seconde passe ciblée
           if ! grep -qiE 'data-staticrypt|staticrypt|StatiCrypt' public/index.html; then
-            echo "⚠️  index.html n'affiche pas de marqueur, seconde passe ciblée…"
-            staticrypt public/index.html "$STATICRYPT_PASSWORD" \
+            echo "⚠️  index.html n'affiche pas de marqueur, seconde passe…"
+            staticrypt public/index.html \
+              --password "$STATICRYPT_PASSWORD" \
               --salt "$SALT" \
               --short \
-              --output public/index.html \
-              --title "Accès protégé" \
-              --instructions "Entrez le mot de passe pour consulter le contenu."
+              --output public/index.html
           fi
 
-      - name: Verify encryption (look for StatiCrypt markers)
-        shell: bash
+      - name: Verify encryption (should find 'StatiCrypt' marker)
         run: |
           if grep -qiE 'data-staticrypt|staticrypt|StatiCrypt' public/index.html; then
-            echo "✅ OK: index.html appears encrypted"
+            echo "✅ index.html is encrypted."
           else
             echo "❌ index.html does not look encrypted (no staticrypt markers found)"
             echo "---- First 40 lines of public/index.html ----"
