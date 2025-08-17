@@ -41,19 +41,28 @@ jobs:
       - name: Install StatiCrypt (pin major)
         run: npm i -g staticrypt@^3
 
+      - name: Check password is present (no leak)
+        env:
+          STATICRYPT_PASSWORD: ${{ secrets.STATICRYPT_PASSWORD }}
+        run: |
+          if [ -z "${STATICRYPT_PASSWORD}" ]; then
+            echo "❌ Secret STATICRYPT_PASSWORD manquant."; exit 1;
+          else
+            echo "✅ Secret présent (longueur: ${#STATICRYPT_PASSWORD})."
+          fi
+
       - name: Encrypt ALL HTML with StatiCrypt
         env:
           STATICRYPT_PASSWORD: ${{ secrets.STATICRYPT_PASSWORD }}
         run: |
           set -e
           echo "Searching HTML files in ./public …"
-          # Récupère la liste des .html (zéro-safe)
           mapfile -d '' files < <(find public -type f -name '*.html' -print0)
-
           echo "Found ${#files[@]} HTML file(s)."
           for f in "${files[@]}"; do
             echo "Encrypting $f"
-            staticrypt "$f" "$STATICRYPT_PASSWORD" \
+            staticrypt "$f" \
+              -p "$STATICRYPT_PASSWORD" \
               --short \
               -t "Accès protégé" \
               -i "Entrez le mot de passe pour consulter le contenu." \
