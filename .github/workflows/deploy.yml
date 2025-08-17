@@ -2,11 +2,11 @@ name: Build & Deploy Quartz (with password)
 
 on:
   push:
-    branches: ["main"]
+    branches: [ "main" ]
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
   pages: write
   id-token: write
 
@@ -41,45 +41,33 @@ jobs:
       - name: Install StatiCrypt (pin major)
         run: npm i -g staticrypt@^3
 
-      - name: Check password is present (no leak)
-        env:
-          STATICRYPT_PASSWORD: ${{ secrets.STATICRYPT_PASSWORD }}
-        run: |
-          if [ -z "${STATICRYPT_PASSWORD}" ]; then
-            echo "❌ Secret STATICRYPT_PASSWORD manquant."; exit 1;
-          else
-            echo "✅ Secret présent (longueur: ${#STATICRYPT_PASSWORD})."
-          fi
-
       - name: Encrypt ALL HTML with StatiCrypt
         env:
           STATICRYPT_PASSWORD: ${{ secrets.STATICRYPT_PASSWORD }}
         run: |
-          set -e
-          echo "Searching HTML files in ./public …"
-          mapfile -d '' files < <(find public -type f -name '*.html' -print0)
-          echo "Found ${#files[@]} HTML file(s)."
-          for f in "${files[@]}"; do
-            echo "Encrypting $f"
-            staticrypt "$f" \
-              -p "$STATICRYPT_PASSWORD" \
-              --short \
-              -t "Accès protégé" \
-              -i "Entrez le mot de passe pour consulter le contenu." \
-              -o "$f"
+          set -euo pipefail
+          if [ -z "${STATICRYPT_PASSWORD:-}" ]; then
+            echo "❌ Secret STATICRYPT_PASSWORD manquant"; exit 1
+          fi
+
+          echo "🔎 Recherche des fichiers .html dans ./public …"
+          mapfile -t FILES < <(find public -type f -name "*.html")
+          echo "➡️  ${#FILES[@]} fichier(s) HTML trouvé(s)."
+
+          for f in "${FILES[@]}"; do
+            echo "🔐 Chiffrement de $f"
+            staticrypt "$f" "$STATICRYPT_PASSWORD" \
+              --output "$f" \
+              --title "Accès protégé" \
+              --instructions "Entrez le mot de passe pour consulter le contenu." \
+              --short
           done
-          echo "Encryption done."
 
       - name: Verify encryption (should find 'StatiCrypt' marker)
         run: |
-          if grep -q "StatiCrypt" public/index.html; then
-            echo "OK: index.html is encrypted."
-          else
-            echo "ERROR: index.html not encrypted"
-            echo "First 30 lines of public/index.html (for debugging):"
-            head -n 30 public/index.html || true
-            exit 1
-          fi
+          grep -q "StatiCrypt" public/index.html \
+            && echo "✅ OK: index.html est chiffré" \
+            || (echo "❌ ERROR: index.html not encrypted" && exit 1)
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
