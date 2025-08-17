@@ -2,11 +2,11 @@ name: Build & Deploy Quartz (with password)
 
 on:
   push:
-    branches: [ "main" ]
+    branches: ["main"]
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -24,7 +24,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: '22'
+          node-version: "22"
 
       - name: Update npm (required by Quartz)
         run: npm i -g npm@latest
@@ -39,29 +39,36 @@ jobs:
         run: npx --yes quartz build
 
       - name: Install StatiCrypt (pin major)
-        run: npm i -g staticrypt@3
+        run: npm i -g staticrypt@^3
 
       - name: Encrypt ALL HTML with StatiCrypt
         env:
           STATICRYPT_PASSWORD: ${{ secrets.STATICRYPT_PASSWORD }}
         run: |
-          set -euo pipefail
-          # Chiffre tous les .html depuis 'public' EN PLACE (-o "$f")
-          find public -type f -name "*.html" -print0 | while IFS= read -r -d '' f; do
+          set -e
+          echo "Searching HTML files in ./public …"
+          # Récupère la liste des .html (zéro-safe)
+          mapfile -d '' files < <(find public -type f -name '*.html' -print0)
+
+          echo "Found ${#files[@]} HTML file(s)."
+          for f in "${files[@]}"; do
             echo "Encrypting $f"
-            staticrypt "$f" -o "$f" \
-              -p "$STATICRYPT_PASSWORD" \
+            staticrypt "$f" "$STATICRYPT_PASSWORD" \
               --short \
-              --title "Acces protege" \
-              --instructions "Entrez le mot de passe pour consulter le contenu."
+              -t "Accès protégé" \
+              -i "Entrez le mot de passe pour consulter le contenu." \
+              -o "$f"
           done
+          echo "Encryption done."
 
       - name: Verify encryption (should find 'StatiCrypt' marker)
         run: |
           if grep -q "StatiCrypt" public/index.html; then
-            echo "OK: index.html is encrypted"
+            echo "OK: index.html is encrypted."
           else
             echo "ERROR: index.html not encrypted"
+            echo "First 30 lines of public/index.html (for debugging):"
+            head -n 30 public/index.html || true
             exit 1
           fi
 
