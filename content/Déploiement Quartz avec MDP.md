@@ -11,7 +11,6 @@ version: "1.0"
 last_reviewed: "2025-08-23"
 type: "procédure technique"
 ---
-
 ## 0. Prérequis
 
 - Repo GitHub : cedbo26/pestalozzi-intranet
