@@ -14,7 +14,7 @@ tags:
 
 ## 📎 Notes liées
 - Hub : [[🧭 Synthèse IT – Cabinet Pestalozzi]]
-- Analyses IT : [[🖥️ État de fonctionnement IT – Mélissa]] · [[📬 Correspondance]] · [[🗄️ Organisation fichiers]] · [[💰 Facturation]]
+- Analyses IT : [[🖥️ Fonctionnement IT – Mélissa]] · [[📬 Correspondance]] · [[🗄️ Organisation fichiers]] · [[💰 Facturation]]
 
 ---
 
