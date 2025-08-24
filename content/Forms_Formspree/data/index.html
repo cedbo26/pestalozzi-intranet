@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Questionnaire Facturation</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+    body { font-family: Arial, sans-serif; background: #f5f5f5; padding: 20px; }
+    h1 { text-align: center; color: #333; }
+    form { background: #fff; padding: 20px; border-radius: 8px; max-width: 700px; margin: auto; }
+    fieldset { border: none; margin-bottom: 20px; }
+    legend { font-weight: bold; margin-bottom: 10px; }
+    label { display: block; margin-top: 8px; }
+    input[type="text"], input[type="email"], textarea { width: 100%; padding: 8px; margin-top: 4px; border: 1px solid #ccc; border-radius: 4px; }
+    input[type="checkbox"], input[type="radio"] { margin-right: 6px; }
+    table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+    table td, table th { border: 1px solid #ccc; padding: 6px; text-align: center; }
+    button { background: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer; }
+    button:hover { background: #45a049; }
+</style>
+</head>
+<body>
+
+<h1>Facturation_1</h1>
+
+<form action="https://formspree.io/f/mjkoowwe" method="POST">
+
+<!-- 1. Méthode d’envoi -->
+<fieldset>
+<legend>1. Méthode d’envoi vers la Caisse des Médecins</legend>
+<label><input type="checkbox" name="envoi_cmd[]" value="Dentagest XML">Directement depuis Dentagest (export XML)</label>
+<label><input type="checkbox" name="envoi_cmd[]" value="Papier">Impression et envoi papier</label>
+<label>Autre méthode : <input type="text" name="envoi_cmd_autre"></label>
+</fieldset>
+
+<!-- 2. Fréquence -->
+<fieldset>
+<legend>2. Fréquence d’envoi à la Caisse des Médecins</legend>
+<label><input type="radio" name="frequence_cmd" value="Chaque jour">Chaque jour</label>
+<label><input type="radio" name="frequence_cmd" value="Chaque semaine">Chaque semaine</label>
+<label><input type="radio" name="frequence_cmd" value="Chaque 2 semaines">Chaque 2 semaines</label>
+<label><input type="radio" name="frequence_cmd" value="Chaque mois">Chaque mois</label>
+<label>Autre : <input type="text" name="frequence_cmd_autre"></label>
+</fieldset>
+
+<!-- 3. Workflow par type de payeur -->
+<fieldset>
+<legend>3. Workflow selon le type de payeur</legend>
+<p><strong>Pour chaque type, coche la méthode d’envoi et précise si c’est toi qui le fais :</strong></p>
+
+<p><strong>Patients privés</strong></p>
+<label><input type="checkbox" name="pp_method[]" value="Dentagest">Depuis Dentagest</label>
+<label><input type="checkbox" name="pp_method[]" value="Papier">Par courrier papier</label>
+<label>Autre : <input type="text" name="pp_autre"></label>
+<label>Envoi fait par toi ? <input type="radio" name="pp_envoi" value="Oui">Oui <input type="radio" name="pp_envoi" value="Non">Non</label>
+
+<p><strong>Caisse des Médecins</strong></p>
+<label><input type="checkbox" name="cmd_method[]" value="Dentagest">Depuis Dentagest</label>
+<label><input type="checkbox" name="cmd_method[]" value="Papier">Par courrier papier</label>
+<label>Autre : <input type="text" name="cmd_autre"></label>
+<label>Envoi fait par toi ? <input type="radio" name="cmd_envoi" value="Oui">Oui <input type="radio" name="cmd_envoi" value="Non">Non</label>
+
+<p><strong>Assurances complémentaires</strong></p>
+<label><input type="checkbox" name="ass_method[]" value="Dentagest">Depuis Dentagest</label>
+<label><input type="checkbox" name="ass_method[]" value="Papier">Par courrier papier</label>
+<label>Autre : <input type="text" name="ass_autre"></label>
+<label>Envoi fait par toi ? <input type="radio" name="ass_envoi" value="Oui">Oui <input type="radio" name="ass_envoi" value="Non">Non</label>
+
+<p><strong>Aide sociale / Service social</strong></p>
+<label><input type="checkbox" name="soc_method[]" value="Dentagest">Depuis Dentagest</label>
+<label><input type="checkbox" name="soc_method[]" value="Papier">Par courrier papier</label>
+<label>Autre : <input type="text" name="soc_autre"></label>
+<label>Envoi fait par toi ? <input type="radio" name="soc_envoi" value="Oui">Oui <input type="radio" name="soc_envoi" value="Non">Non</label>
+</fieldset>
+
+<!-- 4. Suivi des paiements -->
+<fieldset>
+<legend>4. Suivi des paiements</legend>
+<label><input type="checkbox" name="suivi[]" value="Dentagest">Dentagest (module suivi intégré)</label>
+<label><input type="checkbox" name="suivi[]" value="Relevé CMD">Relevé fourni par la Caisse des Médecins</label>
+<label><input type="checkbox" name="suivi[]" value="Manuel">Contrôle manuel</label>
+<label>Autre : <input type="text" name="suivi_autre"></label>
+</fieldset>
+
+<!-- 5. Gestion des impayés -->
+<fieldset>
+<legend>5. Gestion des impayés</legend>
+<label><input type="checkbox" name="impayes[]" value="Relance auto Dentagest">Relance automatique par Dentagest</label>
+<label><input type="checkbox" name="impayes[]" value="Relance manuelle">Relance manuelle par moi-même</label>
+<label><input type="checkbox" name="impayes[]" value="Recouvrement CMD">La Caisse des Médecins gère le recouvrement</label>
+<label>Autre : <input type="text" name="impayes_autre"></label>
+</fieldset>
+
+<!-- 6. Délais financiers -->
+<fieldset>
+<legend>6. Délais financiers par type de payeur</legend>
+<table>
+<tr>
+<th>Type de payeur</th>
+<th>-1 semaine</th>
+<th>1-2 sem.</th>
+<th>2-4 sem.</th>
+<th>+1 mois</th>
+<th>Variable</th>
+</tr>
+<tr>
+<td>Patients privés</td>
+<td><input type="radio" name="delai_pp" value="-1 semaine"></td>
+<td><input type="radio" name="delai_pp" value="1-2 sem."></td>
+<td><input type="radio" name="delai_pp" value="2-4 sem."></td>
+<td><input type="radio" name="delai_pp" value="+1 mois"></td>
+<td><input type="radio" name="delai_pp" value="Variable"></td>
+</tr>
+<tr>
+<td>Caisse des Médecins</td>
+<td><input type="radio" name="delai_cmd" value="-1 semaine"></td>
+<td><input type="radio" name="delai_cmd" value="1-2 sem."></td>
+<td><input type="radio" name="delai_cmd" value="2-4 sem."></td>
+<td><input type="radio" name="delai_cmd" value="+1 mois"></td>
+<td><input type="radio" name="delai_cmd" value="Variable"></td>
+</tr>
+<tr>
+<td>Assurances complémentaires</td>
+<td><input type="radio" name="delai_ass" value="-1 semaine"></td>
+<td><input type="radio" name="delai_ass" value="1-2 sem."></td>
+<td><input type="radio" name="delai_ass" value="2-4 sem."></td>
+<td><input type="radio" name="delai_ass" value="+1 mois"></td>
+<td><input type="radio" name="delai_ass" value="Variable"></td>
+</tr>
+<tr>
+<td>Aide sociale / Service social</td>
+<td><input type="radio" name="delai_soc" value="-1 semaine"></td>
+<td><input type="radio" name="delai_soc" value="1-2 sem."></td>
+<td><input type="radio" name="delai_soc" value="2-4 sem."></td>
+<td><input type="radio" name="delai_soc" value="+1 mois"></td>
+<td><input type="radio" name="delai_soc" value="Variable"></td>
+</tr>
+</table>
+</fieldset>
+
+<!-- Bouton -->
+<button type="submit">Envoyer</button>
+
+</form>
+
+</body>
+</html>

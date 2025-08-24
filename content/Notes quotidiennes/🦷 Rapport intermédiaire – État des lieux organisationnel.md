@@ -1,4 +1,4 @@
-# 🦷 Rapport intermédiaire – État des lieux organisationnel
+# 
 *Cabinet Dentaire Pestalozzi – Août 2025*  
 *Consultant : [CB]*
 

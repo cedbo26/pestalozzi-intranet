@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Questionnaire – Accès ordinateur principal (Mélissa / Pestalozzi)</title>
+  <style>
+    :root { font-family: system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif; }
+    body { margin: 24px; line-height: 1.5; }
+    h1 { font-size: 1.35rem; margin-bottom: .4rem; }
+    .desc { color:#555; margin-bottom: 1rem; }
+    fieldset { border:1px solid #ddd; border-radius:12px; padding:16px; margin:16px 0; }
+    legend { padding:0 8px; font-weight:700; }
+    label { display:block; margin:8px 0; }
+    .inline { display:flex; align-items:center; gap:.5rem; margin:6px 0; }
+    input[type="text"], input[type="email"], input[type="date"], select, textarea {
+      width:100%; max-width:800px; padding:10px; border:1px solid #ccc; border-radius:8px;
+    }
+    textarea { min-height:110px; }
+    .row { display:grid; grid-template-columns: 1fr; gap:10px; }
+    @media (min-width: 760px){ .row-2 { grid-template-columns: 1fr 1fr; } }
+    .hint { color:#666; font-size:.9rem; margin-top:-4px; }
+    .submit { margin-top: 18px; }
+    button { padding:12px 18px; border:0; border-radius:10px; cursor:pointer; }
+    .primary { background:#111; color:#fff; }
+  </style>
+</head>
+<body>
+  <h1>Questionnaire – Accès à l’ordinateur principal (Mélissa / Pestalozzi)</h1>
+  <p class="desc">
+    Objectif : cartographier les accès réels et potentiels à l’ordinateur principal, aux logiciels (dont Dentagest),
+    aux boîtes mail et au serveur, et identifier les éléments sensibles/confidentiels.
+  </p>
+
+  <form action="https://formspree.io/f/xblkqlog" method="POST" accept-charset="UTF-8">
+    <!-- Métadonnées minimales -->
+    <input type="hidden" name="form_name" value="Acces_Ordinateur_Principal_Melissa" />
+    <input type="hidden" name="_language" value="fr" />
+
+    <!-- 1) Ordinateur principal -->
+    <fieldset>
+      <legend>1) Ordinateur principal de Mélissa / Pestalozzi</legend>
+
+      <label>Nom ou description de l’ordinateur (si connu)
+        <input type="text" name="ordi_nom" value="Ordinateur principal de Mélissa / Pestalozzi" />
+      </label>
+
+      <p><strong>Est-ce que l’ordinateur a un mot de passe de session&nbsp;?</strong></p>
+      <label class="inline"><input type="radio" name="ordi_mdp_session" value="Oui_connu_de_Melissa_uniquement" /> Oui, connu de Mélissa uniquement</label>
+      <label class="inline"><input type="radio" name="ordi_mdp_session" value="Oui_partage" /> Oui, partagé avec certaines personnes</label>
+      <label class="inline"><input type="radio" name="ordi_mdp_session" value="Non" /> Non</label>
+
+      <p><strong>Est-ce que l’ordinateur a un verrouillage automatique après inactivité&nbsp;?</strong></p>
+      <label class="inline"><input type="radio" name="ordi_lock" value="Toujours" /> Oui, toujours</label>
+      <label class="inline"><input type="radio" name="ordi_lock" value="Parfois" /> Parfois</label>
+      <label class="inline"><input type="radio" name="ordi_lock" value="Jamais" /> Non</label>
+
+      <p><strong>Qui peut accéder physiquement à cet ordinateur&nbsp;? (cocher tout ce qui s’applique)</strong></p>
+      <label class="inline"><input type="checkbox" name="ordi_acces_physique[]" value="Equipe_Pestalozzi" /> Collaborateurs Pestalozzi</label>
+      <label class="inline"><input type="checkbox" name="ordi_acces_physique[]" value="Equipe_RDL4" /> Collaborateurs RDL4</label>
+      <label class="inline"><input type="checkbox" name="ordi_acces_physique[]" value="Visiteurs_Tech" /> Visiteurs / techniciens (maintenance)</label>
+      <label class="inline"><input type="checkbox" name="ordi_acces_physique[]" value="Autre" /> Autre</label>
+      <label>Précisions sur l’accès physique (noms, rôles, situations)
+        <textarea name="ordi_acces_physique_precisions" placeholder="Ex. accès pendant pauses, urgence, etc."></textarea>
+      </label>
+    </fieldset>
+
+    <!-- 2) Sessions & identifiants -->
+    <fieldset>
+      <legend>2) Sessions et identifiants</legend>
+
+      <p><strong>Quel type de session est utilisé sur cet ordinateur&nbsp;?</strong></p>
+      <label class="inline"><input type="radio" name="session_type" value="Session_personnelle_uniquement" /> Session personnelle de Mélissa uniquement</label>
+      <label class="inline"><input type="radio" name="session_type" value="Session_commune" /> Session commune</label>
+      <label class="inline"><input type="radio" name="session_type" value="Mixte" /> Session personnelle + session(s) partagée(s)</label>
+
+      <label>Qui connaît le mot de passe de la session principale&nbsp;?
+        <textarea name="session_mdp_connais" placeholder="Lister les personnes + contexte"></textarea>
+      </label>
+    </fieldset>
+
+    <!-- 3) Dentagest (prestations vs. administrateur) -->
+    <fieldset>
+      <legend>3) Dentagest – gestion des accès</legend>
+
+      <p><strong>Comment accédez-vous à Dentagest sur cet ordinateur&nbsp;?</strong></p>
+      <label class="inline"><input type="radio" name="dentagest_compte" value="Compte_personnel" /> Compte personnel</label>
+      <label class="inline"><input type="radio" name="dentagest_compte" value="Compte_partage" /> Compte partagé</label>
+      <label class="inline"><input type="radio" name="dentagest_compte" value="Autre" /> Autre</label>
+
+      <p><strong>Existe-t-il une session «&nbsp;administrateur&nbsp;» pour la partie finance et comptabilité&nbsp;?</strong></p>
+      <label class="inline"><input type="radio" name="dentagest_admin_existe" value="Oui" /> Oui</label>
+      <label class="inline"><input type="radio" name="dentagest_admin_existe" value="Non" /> Non</label>
+      <label class="inline"><input type="radio" name="dentagest_admin_existe" value="Ne_sais_pas" /> Ne sais pas</label>
+
+      <label>Qui a accès à la session «&nbsp;administrateur&nbsp;» (le cas échéant)&nbsp;?
+        <textarea name="dentagest_admin_acces" placeholder="Noms + rôles"></textarea>
+      </label>
+
+      <p><strong>Qui a accès aux sessions d’insertion des prestations&nbsp;?</strong></p>
+      <label>Préciser les comptes / personnes
+        <textarea name="dentagest_prestations_acces" placeholder="Ex. assistants, dentistes, hygiénistes…"></textarea>
+      </label>
+
+      <p><strong>Membres RDL4 avec accès à Dentagest (potentiel ou avéré)</strong></p>
+      <label class="inline"><input type="radio" name="dentagest_rdl4" value="Oui" /> Oui</label>
+      <label class="inline"><input type="radio" name="dentagest_rdl4" value="Non" /> Non</label>
+      <label class="inline"><input type="radio" name="dentagest_rdl4" value="Ne_sais_pas" /> Ne sais pas</label>
+
+      <label>Si oui / incertain, préciser les noms
+        <textarea name="dentagest_rdl4_noms" placeholder="Ex. Dr Richard Duc, Aldo Allo, Chloé, Valérie…"></textarea>
+      </label>
+    </fieldset>
+
+    <!-- 4) Logiciels bureautiques et autres -->
+    <fieldset>
+      <legend>4) Logiciels bureautiques et autres logiciels utilisés</legend>
+
+      <p class="hint">Lister ici uniquement ce qui est effectivement utilisé sur cet ordinateur (ex. Outlook). Retirer ce qui n’est pas pertinent.</p>
+
+      <p><strong>Quels logiciels sont utilisés sur cet ordinateur&nbsp;? (cocher)</strong></p>
+      <label class="inline"><input type="checkbox" name="softs[]" value="Outlook" /> Outlook</label>
+      <label class="inline"><input type="checkbox" name="softs[]" value="Suite_Bureautique" /> Suite bureautique (ex. Word/Excel)</label>
+      <label class="inline"><input type="checkbox" name="softs[]" value="Navigateur" /> Navigateur (Chrome/Edge/Firefox)</label>
+      <label class="inline"><input type="checkbox" name="softs[]" value="Autre" /> Autre (préciser ci-dessous)</label>
+
+      <label>Précisions sur les autres logiciels (nom + usage)
+        <textarea name="softs_precisions" placeholder="Ex. autre messagerie, outil métier spécifique…"></textarea>
+      </label>
+    </fieldset>
+
+    <!-- 5) Boîtes mail -->
+    <fieldset>
+      <legend>5) Accès aux boîtes mail sur cet ordinateur</legend>
+
+      <p><strong>Quelles boîtes mail sont configurées&nbsp;? (cocher)</strong></p>
+      <label class="inline"><input type="checkbox" name="mails[]" value="info@cabinet-dentaire-pestalozzi.ch" /> info@cabinet-dentaire-pestalozzi.ch</label>
+      <label class="inline"><input type="checkbox" name="mails[]" value="Bluewin_Melissa" /> Bluewin de Mélissa</label>
+      <label class="inline"><input type="checkbox" name="mails[]" value="Autre" /> Autre</label>
+
+      <label>Adresse Bluewin de Mélissa
+        <input type="text" name="mail_bluewin_melissa" placeholder="ex. melissa.xxx@bluewin.ch" />
+      </label>
+
+      <p><strong>Quelles méthodes d’accès sont utilisées&nbsp;? (cocher)</strong></p>
+      <label class="inline"><input type="checkbox" name="mail_acces[]" value="Outlook_PC" /> Outlook sur ordinateur</label>
+      <label class="inline"><input type="checkbox" name="mail_acces[]" value="Webmail" /> Webmail (navigateur)</label>
+      <label class="inline"><input type="checkbox" name="mail_acces[]" value="App_mobile" /> Application mobile</label>
+      <label class="inline"><input type="checkbox" name="mail_acces[]" value="Autre" /> Autre</label>
+
+      <p><strong>Des personnes autres que Mélissa peuvent-elles lire ces mails depuis cet ordinateur&nbsp;?</strong></p>
+      <label class="inline"><input type="radio" name="mail_lecture_autres_possible" value="Oui" /> Oui</label>
+      <label class="inline"><input type="radio" name="mail_lecture_autres_possible" value="Non" /> Non</label>
+      <label class="inline"><input type="radio" name="mail_lecture_autres_possible" value="Ne_sais_pas" /> Ne sais pas</label>
+
+      <label>Si oui / incertain, préciser qui et dans quelles conditions
+        <textarea name="mail_lecture_autres_precisions"></textarea>
+      </label>
+
+      <p><strong>Certains mails doivent-ils rester confidentiels / à accès restreint&nbsp;?</strong></p>
+      <label class="inline"><input type="radio" name="mail_confidentiel" value="Oui" /> Oui</label>
+      <label class="inline"><input type="radio" name="mail_confidentiel" value="Non" /> Non</label>
+      <label class="inline"><input type="radio" name="mail_confidentiel" value="Ne_sais_pas" /> Ne sais pas</label>
+
+      <label>Préciser (types/dossiers sensibles)
+        <textarea name="mail_confidentiel_precisions"></textarea>
+      </label>
+    </fieldset>
+
+    <!-- 6) Fichiers, dossiers & serveur -->
+    <fieldset>
+      <legend>6) Fichiers, dossiers & serveur</legend>
+
+      <p><strong>Où sont stockés les documents du cabinet accessibles depuis cet ordinateur&nbsp;? (cocher)</strong></p>
+      <label class="inline"><input type="checkbox" name="stockage[]" value="Local_PC" /> Disque local (Documents, Bureau, etc.)</label>
+      <label class="inline"><input type="checkbox" name="stockage[]" value="Serveur" /> Serveur du cabinet</label>
+      <label class="inline"><input type="checkbox" name="stockage[]" value="Disque_externe" /> Disque dur externe</label>
+      <label class="inline"><input type="checkbox" name="stockage[]" value="Cle_USB" /> Clé USB</label>
+      <label class="inline"><input type="checkbox" name="stockage[]" value="Cloud" /> Cloud (préciser ci-dessous)</label>
+      <label class="inline"><input type="checkbox" name="stockage[]" value="Autre" /> Autre</label>
+
+      <label>Précisions (cloud / chemins de dossiers)
+        <input type="text" name="stockage_precisions" placeholder="Nom du service cloud + chemins" />
+      </label>
+
+      <p><strong>Quels fichiers/dossiers sont sur le serveur et lesquels sont sur l’ordinateur&nbsp;?</strong></p>
+      <label>
+        <textarea name="repartition_serveur_ordinateur" placeholder="Décrire la répartition (ex. patients sur serveur, administratif sur PC)…"></textarea>
+      </label>
+
+      <p><strong>Qui a accès au serveur depuis cet ordinateur&nbsp;?</strong></p>
+      <label>
+        <textarea name="serveur_acces_depuis_pc" placeholder="Lister personnes / rôles / niveaux d’accès"></textarea>
+      </label>
+
+      <p><strong>Y a‑t‑il des dossiers confidentiels&nbsp;?</strong></p>
+      <label>
+        <textarea name="dossiers_confidentiels" placeholder="Lister les chemins/dossiers sensibles"></textarea>
+      </label>
+    </fieldset>
+
+    <!-- 7) Bloc spécifique RDL4 -->
+    <fieldset>
+      <legend>7) RDL4 – type d’accès (le cas échéant)</legend>
+      <p class="hint">Pour chaque personne, indiquer s’il existe un accès (même ponctuel) et son type&nbsp;: «&nbsp;Prestations&nbsp;», «&nbsp;Admin&nbsp;» ou «&nbsp;Complet&nbsp;».</p>
+
+      <div class="row row-2">
+        <label>Dr Richard Duc
+          <select name="rdl4_duc_acces">
+            <option value="">— Aucun / inconnu —</option>
+            <option>Prestations</option>
+            <option>Admin</option>
+            <option>Complet</option>
+          </select>
+        </label>
+        <label>Dr Aldo Allo
+          <select name="rdl4_aldo_acces">
+            <option value="">— Aucun / inconnu —</option>
+            <option>Prestations</option>
+            <option>Admin</option>
+            <option>Complet</option>
+          </select>
+        </label>
+        <label>Chloé (assistante)
+          <select name="rdl4_chloe_acces">
+            <option value="">— Aucun / inconnu —</option>
+            <option>Prestations</option>
+            <option>Admin</option>
+            <option>Complet</option>
+          </select>
+        </label>
+        <label>Valérie (assistante)
+          <select name="rdl4_valerie_acces">
+            <option value="">— Aucun / inconnu —</option>
+            <option>Prestations</option>
+            <option>Admin</option>
+            <option>Complet</option>
+          </select>
+        </label>
+        <label>Marise (hygiéniste)
+          <select name="rdl4_marise_acces">
+            <option value="">— Aucun / inconnu —</option>
+            <option>Prestations</option>
+            <option>Admin</option>
+            <option>Complet</option>
+          </select>
+        </label>
+        <label>Sarah (hygiéniste)
+          <select name="rdl4_sarah_acces">
+            <option value="">— Aucun / inconnu —</option>
+            <option>Prestations</option>
+            <option>Admin</option>
+            <option>Complet</option>
+          </select>
+        </label>
+        <label>Sylviane (administration)
+          <select name="rdl4_sylviane_acces">
+            <option value="">— Aucun / inconnu —</option>
+            <option>Prestations</option>
+            <option>Admin</option>
+            <option>Complet</option>
+          </select>
+        </label>
+      </div>
+
+      <label>Autre personne RDL4 + type d’accès
+        <input type="text" name="rdl4_autre_acces" placeholder="Nom – Prestations/Admin/Complet" />
+      </label>
+      <label>Précisions RDL4 (contexte, fréquence)
+        <textarea name="rdl4_precisions"></textarea>
+      </label>
+    </fieldset>
+
+    <!-- 8) Remarques générales -->
+    <fieldset>
+      <legend>8) Remarques générales</legend>
+      <label>Commentaires / précisions à propos de ce formulaire
+        <textarea name="remarques_generales"></textarea>
+      </label>
+    </fieldset>
+
+    <!-- Options Formspree (facultatives) -->
+    <input type="hidden" name="_template" value="table" />
+
+    <div class="submit">
+      <button type="submit" class="primary">Envoyer</button>
+    </div>
+  </form>
+</body>
+</html>

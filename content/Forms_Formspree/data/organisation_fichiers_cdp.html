@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Organisation_Fichiers_CDP</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+    body { font-family: Arial, sans-serif; background: #f5f5f5; padding: 20px; }
+    h1 { text-align: center; color: #333; }
+    form { background: #fff; padding: 20px; border-radius: 8px; max-width: 800px; margin: auto; }
+    fieldset { border: none; margin-bottom: 20px; }
+    legend { font-weight: bold; margin-bottom: 10px; }
+    label { display: block; margin-top: 8px; }
+    input[type="text"], textarea { width: 100%; padding: 8px; margin-top: 4px; border: 1px solid #ccc; border-radius: 4px; }
+    input[type="checkbox"], input[type="radio"] { margin-right: 6px; }
+    button { background: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer; }
+    button:hover { background: #45a049; }
+</style>
+</head>
+<body>
+
+<h1>Organisation_Fichiers_CDP</h1>
+
+<form action="https://formspree.io/f/xanbbjje" method="POST">
+
+<!-- 1. Données patients -->
+<fieldset>
+<legend>1. Données patients dans Dentagest</legend>
+<label><input type="radio" name="dentagest_exclusif" value="Oui, toutes">Oui, toutes</label>
+<label><input type="radio" name="dentagest_exclusif" value="Oui, mais certains documents ailleurs">Oui, mais certains documents sont ailleurs</label>
+<label><input type="radio" name="dentagest_exclusif" value="Non, beaucoup ailleurs">Non, beaucoup d’informations sont ailleurs</label>
+<label>Remarque : <input type="text" name="dentagest_remarque"></label>
+
+<p><strong>Si certains documents sont ailleurs :</strong></p>
+<label><input type="checkbox" name="stockage[]" value="Ordinateur Melissa">Dossier sur l’ordinateur de Melissa</label>
+<label><input type="checkbox" name="stockage[]" value="Disque dur externe">Disque dur externe / clé USB</label>
+<label><input type="checkbox" name="stockage[]" value="Documents papier">Documents papier (classement au cabinet)</label>
+<label>Remarque : <input type="text" name="stockage_remarque"></label>
+</fieldset>
+
+<!-- 2. Imagerie médicale -->
+<fieldset>
+<legend>2. Imagerie médicale</legend>
+<label><input type="checkbox" name="imagerie_stockage[]" value="Dentagest">Dans Dentagest</label>
+<label><input type="checkbox" name="imagerie_stockage[]" value="Logiciel dédié">Dans un logiciel d’imagerie dédié (préciser) : <input type="text" name="logiciel_dedie"></label>
+<label><input type="checkbox" name="imagerie_stockage[]" value="Ordinateur Melissa">Dans un dossier séparé sur l’ordinateur de Melissa</label>
+<label>Remarque : <input type="text" name="imagerie_remarque"></label>
+
+<p><strong>Radios reliées à Dentagest ?</strong></p>
+<label><input type="radio" name="radios_reliees" value="Oui">Oui</label>
+<label><input type="radio" name="radios_reliees" value="Non">Non</label>
+<label><input type="radio" name="radios_reliees" value="Partiellement">Partiellement</label>
+<label>Remarque complémentaire : <input type="text" name="radios_remarque"></label>
+</fieldset>
+
+<!-- 3. Correspondances -->
+<fieldset>
+<legend>3. Correspondances avec les patients</legend>
+<label><input type="checkbox" name="moyens_comm[]" value="Email">Email</label>
+<label><input type="checkbox" name="moyens_comm[]" value="Téléphone">Téléphone</label>
+<label><input type="checkbox" name="moyens_comm[]" value="SMS">SMS</label>
+<label><input type="checkbox" name="moyens_comm[]" value="Courrier">Courrier papier</label>
+<label>Remarque : <input type="text" name="comm_remarque"></label>
+
+<p><strong>Adresses email utilisées :</strong></p>
+<label><input type="checkbox" name="emails_utilises[]" value="info@cabinet-dentaire-pestalozzi.ch">info@cabinet-dentaire-pestalozzi.ch</label>
+<label><input type="checkbox" name="emails_utilises[]" value="Bluewin">Adresse Bluewin</label>
+<label><input type="checkbox" name="emails_utilises[]" value="Autre">Autre : <input type="text" name="email_autre"></label>
+
+<p><strong>Qui a accès aux boîtes mail ?</strong></p>
+<label><input type="checkbox" name="acces_mails[]" value="Melissa">Melissa</label>
+<label><input type="checkbox" name="acces_mails[]" value="Assistante">Assistante</label>
+<label><input type="checkbox" name="acces_mails[]" value="Hygieniste">Hygiéniste</label>
+<label><input type="checkbox" name="acces_mails[]" value="Dentiste">Dentiste</label>
+
+<p><strong>Archivage des emails importants :</strong></p>
+<label><input type="checkbox" name="archivage_mails[]" value="Pas d’archivage">Pas d’archivage particulier</label>
+<label><input type="checkbox" name="archivage_mails[]" value="Dossiers email">Dossiers dans la boîte mail</label>
+<label><input type="checkbox" name="archivage_mails[]" value="Papier">Impression papier et classement</label>
+<label>Autre : <input type="text" name="archivage_autre"></label>
+</fieldset>
+
+<!-- 4. Facturation & fiduciaire -->
+<fieldset>
+<legend>4. Facturation et relation avec la fiduciaire</legend>
+<label><input type="checkbox" name="docs_fiduciaire[]" value="Factures privés">Factures patients privés</label>
+<label><input type="checkbox" name="docs_fiduciaire[]" value="Factures assurances">Factures assurances</label>
+<label><input type="checkbox" name="docs_fiduciaire[]" value="Reçus paiements">Reçus et justificatifs de paiement</label>
+<label><input type="checkbox" name="docs_fiduciaire[]" value="Dépenses">Dépenses diverses (tickets de caisse, factures fournisseurs)</label>
+<label>Autre : <input type="text" name="docs_autre"></label>
+
+<p><strong>Fréquence d’envoi :</strong></p>
+<label><input type="radio" name="frequence_envoi" value="Chaque semaine">Chaque semaine</label>
+<label><input type="radio" name="frequence_envoi" value="Chaque mois">Chaque mois</label>
+<label><input type="radio" name="frequence_envoi" value="Tous les 3 mois">Tous les 3 mois</label>
+<label><input type="radio" name="frequence_envoi" value="A la demande">À la demande</label>
+<label>Autre : <input type="text" name="frequence_autre"></label>
+
+<p><strong>Moyen d’envoi :</strong></p>
+<label><input type="checkbox" name="moyen_envoi[]" value="Email">Email</label>
+<label><input type="checkbox" name="moyen_envoi[]" value="Papier">Papier (remis ou envoyé)</label>
+<label><input type="checkbox" name="moyen_envoi[]" value="Mixte">Mixte papier + email</label>
+<label>Autre : <input type="text" name="moyen_autre"></label>
+</fieldset>
+
+<!-- 5. Formulaires patients -->
+<fieldset>
+<legend>5. Formulaires patients</legend>
+<label><input type="radio" name="formulaires_type" value="Papier uniquement">Sur papier uniquement</label>
+<label><input type="radio" name="formulaires_type" value="Papier + numérisés">Sur papier + numérisés</label>
+<label>Remarque : <input type="text" name="formulaires_remarque"></label>
+
+<p><strong>Stockage documents papier :</strong></p>
+<label><input type="checkbox" name="stockage_papier[]" value="Classeur">Classeur au cabinet</label>
+<label><input type="checkbox" name="stockage_papier[]" value="Armoire">Armoire dédiée</label>
+<label>Autre : <input type="text" name="stockage_papier_autre"></label>
+
+<p><strong>Si numérisés, où stockés ?</strong></p>
+<label><input type="checkbox" name="stockage_numerique[]" value="Ordinateur Melissa">Ordinateur de Melissa</label>
+<label><input type="checkbox" name="stockage_numerique[]" value="Disque dur externe">Disque dur externe</label>
+<label>Autre : <input type="text" name="stockage_numerique_autre"></label>
+</fieldset>
+
+<!-- 6. Numérisation & archivage -->
+<fieldset>
+<legend>6. Numérisation et archivage</legend>
+<label><input type="radio" name="numerisation" value="Oui">Oui</label>
+<label><input type="radio" name="numerisation" value="Non">Non</label>
+<label><input type="radio" name="numerisation" value="Partiel">Seulement certains types (préciser) : <input type="text" name="numerisation_precisions"></label>
+
+<p><strong>Format préféré :</strong></p>
+<label><input type="radio" name="format_archivage" value="PDF">PDF</label>
+<label><input type="radio" name="format_archivage" value="Image">Image (JPG/PNG)</label>
+<label><input type="radio" name="format_archivage" value="Autre">Autre : <input type="text" name="format_autre"></label>
+</fieldset>
+
+<!-- 7. Organisation & accès -->
+<fieldset>
+<legend>7. Organisation et accès</legend>
+<p><strong>Qui a accès aux documents numériques patients ?</strong></p>
+<label><input type="checkbox" name="acces_docs[]" value="Melissa">Melissa</label>
+<label><input type="checkbox" name="acces_docs[]" value="Assistante">Assistante</label>
+<label><input type="checkbox" name="acces_docs[]" value="Hygieniste">Hygiéniste</label>
+<label><input type="checkbox" name="acces_docs[]" value="Dentiste">Dentiste</label>
+
+<p><strong>Classement des documents :</strong></p>
+<label><input type="checkbox" name="classement[]" value="Patient">Par patient</label>
+<label><input type="checkbox" name="classement[]" value="Date">Par date</label>
+<label><input type="checkbox" name="classement[]" value="Type">Par type de document</label>
+<label><input type="checkbox" name="classement[]" value="Aucun">Pas de classement particulier</label>
+<label>Autre : <input type="text" name="classement_autre"></label>
+</fieldset>
+
+<!-- Bouton -->
+<button type="submit">Envoyer</button>
+
+</form>
+
+</body>
+</html>
