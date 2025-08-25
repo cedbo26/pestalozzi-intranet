@@ -20,12 +20,12 @@ tags:
 
 # 🏢 Équipe Pestalozzi
 
-| Nom              | Rôle              | Taux activité | Statut       | Remarques |
-|------------------|------------------|---------------|--------------|-----------|
-| **Mélissa**      | Dentiste, propriétaire | 100%          | Indépendante | Responsable IT & admin |
-| **Dr Aldo Allo** | Dentiste          | 60% (35% CA)  | Collaborateur| Lundi, mardi, jeudi |
-| **Laurie W.**    | Hygiéniste        | 30%           | Collaboratrice | Mardi + mercredi matin |
-| **Medina**       | Assistante CFC    | 40%           | Employée     | Jours variables |
+| Nom              | Rôle                | Taux activité | Statut         | Remarques              |
+| ---------------- | ------------------- | ------------- | -------------- | ---------------------- |
+| **Mélissa**      | Assistante dentaire | 120%          | CEO            | Responsable            |
+| **Dr Aldo Allo** | Dentiste            | 60% (35% CA)  | Collaborateur  | Lundi, mardi, jeudi    |
+| **Laurie W.**    | Hygiéniste          | 30%           | Collaboratrice | Mardi + mercredi matin |
+| **Medina**       | Assistante CFC      | 40%           | Employée       | Jours variables        |
 
 ---
 
@@ -87,25 +87,3 @@ tags:
 
 
 
-
-# Ancien
-## Cabinet Pestalozzi (Melissa – Sàrl)
-- **Melissa** – Propriétaire / Assistante dentaire (~100%)
-  - Dr Aldo Allo – Dentiste (60%, lun/mar/jeu) – payé à 35% CA
-  - Laurie Willommet – Hygiéniste (30%, mar + mer matin)
-  - Medina – Assistante CFC (40%, jours flexibles)
-
-## Cabinet du Lac (Dr Richard Duc)
-- **Dr Richard Duc** – Dentiste (40%, lun + ven)
-  - Dr Aldo Allo – Dentiste (40%, mer + ven)
-  - Chloé – Assistante (90%)
-  - Valérie – Assistante (40%, 2 j/semaine)
-  - Marise – Hygiéniste (~60%)
-  - Sarah – Hygiéniste (~40–45%)
-  - Sylviane – Administration (épouse de Dr Duc)
-
-## Relations communes
-- Locaux et charges : 50% chacun
-- Matériel commun : 50% chacun
-- Patientèle & finances : séparés
-- Consommables : achats séparés

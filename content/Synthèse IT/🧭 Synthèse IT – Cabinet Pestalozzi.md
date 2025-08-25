@@ -41,7 +41,6 @@ tags:
 - **Structurant** : Restreindre et formaliser l’accès physique (badge/clé, registre)  
 
 ---
-
 ## 2. 📧 Mails & Correspondance
 ### Constats
 - Adresse info@ pour le site & échanges ✅  
