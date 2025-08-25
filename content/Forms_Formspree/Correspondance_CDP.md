@@ -142,4 +142,4 @@ backlinks:
 
 ## 🔗 Liens
 - [[📁 Correspondance et flux de fichiers]]
-- [[🧭 Synthèse IT – Cabinet Pestalozzi]]
+- [[🧭 Synthèse IT]]

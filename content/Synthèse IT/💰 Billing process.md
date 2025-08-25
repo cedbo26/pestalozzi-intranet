@@ -1,5 +1,5 @@
 ---
-title: Etat IT – Processus de facturation (Cabinet Pestalozzi)
+title: "Processus de facturation"
 form_id: facturation_cdp
 category: analyse_questionnaire
 date_reception: 2025-07-30
@@ -144,4 +144,4 @@ backlinks:
 
 ## 🔗 Liens
 - [[Facturation_1]]
-- [[🧭 Synthèse IT – Cabinet Pestalozzi]]
+- [[🧭 Synthèse IT]]

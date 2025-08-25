@@ -1,5 +1,5 @@
 ---
-title: Etat IT – Correspondance & Flux documentaires (Cabinet Pestalozzi)
+title: "Correspondance & flux documentaires"
 form_id: correspondance_cdp
 category: analyse_questionnaire
 date_reception: 2025-07-31
@@ -151,4 +151,4 @@ backlinks:
 
 ## 🔗 Liens
 - [[Correspondance_CDP]]
-- [[🧭 Synthèse IT – Cabinet Pestalozzi]]
+- [[🧭 Synthèse IT]]

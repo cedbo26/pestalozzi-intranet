@@ -102,4 +102,4 @@ backlinks:
 
 ## 🔗 Liens
 - [[💰 Billing process]]
-- [[🧭 Synthèse IT – Cabinet Pestalozzi]]
+- [[🧭 Synthèse IT]]

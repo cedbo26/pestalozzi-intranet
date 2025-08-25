@@ -221,4 +221,4 @@ backlinks:
 
 ## 🔗 Liens
 - [[🖥️ Fonctionnement IT – Mélissa]]
-- [[🧭 Synthèse IT – Cabinet Pestalozzi]]
+- [[🧭 Synthèse IT]]

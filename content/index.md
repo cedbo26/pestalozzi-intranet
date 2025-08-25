@@ -2,7 +2,7 @@
 
 [[Infrastructure IT]]
 
-[[🧭 Synthèse IT – Cabinet Pestalozzi]]
+[[🧭 Synthèse IT]]
 	[[💰 Billing process]]
 	[[📁 Correspondance et flux de fichiers]]
 	[[🗄️ Organisation des fichiers & archivage]]

@@ -13,7 +13,7 @@ tags:
 # 👥 Organigramme 
 
 ## 📎 Notes liées
-- Hub : [[🧭 Synthèse IT – Cabinet Pestalozzi]]
+- Hub : [[🧭 Synthèse IT]]
 - Analyses IT : [[🖥️ Fonctionnement IT – Mélissa]] · [[📬 Correspondance]] · [[🗄️ Organisation fichiers]] · [[💰 Facturation]]
 
 ---

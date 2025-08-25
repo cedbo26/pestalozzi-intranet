@@ -195,4 +195,4 @@ backlinks:
 
 ## 🔗 Liens
 - [[🗄️ Organisation des fichiers & archivage]]
-- [[🧭 Synthèse IT – Cabinet Pestalozzi]]
+- [[🧭 Synthèse IT]]

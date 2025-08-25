@@ -1,5 +1,5 @@
 ---
-title: "État IT – Mélissa / Accès ordinateur principal"
+title: "Mélissa — Accès ordinateur principal"
 form_id: "Acces_Ordinateur_Principal_Melissa"
 type: "analyse + questionnaire"
 date_reception: "2025-08-23 07:07"
@@ -149,4 +149,4 @@ backlinks:
 
 ## 🔗 Liens
 - [[Acces_IT_CDP]]
-- [[🧭 Synthèse IT – Cabinet Pestalozzi]]
+- [[🧭 Synthèse IT]]

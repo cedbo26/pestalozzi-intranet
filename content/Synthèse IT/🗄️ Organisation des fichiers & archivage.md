@@ -1,5 +1,5 @@
 ---
-title: Etat IT – Organisation des fichiers & archivage (Cabinet Pestalozzi)
+title: "Organisation des fichiers & archivage"
 form_id: organisation_fichiers_cdp
 category: analyse_questionnaire
 date_reception: 2025-07-31
@@ -181,4 +181,4 @@ backlinks:
 
 ## 🔗 Liens
 - [[Organisation_Fichiers_CDP]]
-- [[🧭 Synthèse IT – Cabinet Pestalozzi]]
+- [[🧭 Synthèse IT]]
