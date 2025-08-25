@@ -5,11 +5,11 @@ date_reception: 2025-07-31 00:15
 
 ##### 1. Méthode d’envoi vers la Caisse des Médecins
 
-| Option | Choisi |
-|--------|--------|
-| Directement depuis Dentagest (export XML) | ☑️ |
-| Impression et envoi papier | ⬜ |
-| Autre méthode | ⬜ |
+| Option                                    | Choisi |
+| ----------------------------------------- | ------ |
+| Directement depuis Dentagest (export XML) | ☑️     |
+| Impression et envoi papier                | ⬜      |
+| Autre méthode                             | ⬜      |
 
 ---
 

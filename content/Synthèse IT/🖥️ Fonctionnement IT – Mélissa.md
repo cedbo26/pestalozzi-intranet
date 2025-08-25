@@ -49,16 +49,16 @@ tags: [IT, sécurité, Dentagest, Pestalozzi]
 *Réponse* : Ordinateur principal de Mélissa / Pestalozzi  
 
 **Mot de passe de session ?**  
-*Réponse* : ❌ Partagé avec d’autres personnes  
+*Réponse* : ⬜ Partagé avec d’autres personnes  
 
 **Verrouillage automatique après inactivité ?**  
-*Réponse* : ❌ Jamais  
+*Réponse* : ⬜ Jamais  
 
 **Qui peut accéder physiquement à cet ordinateur ?**  
 *Réponses* :  
-- ✅ Collaborateurs Pestalozzi  
-- ✅ Collaborateurs RDL4  
-- ✅ Visiteurs / techniciens  
+- ☑️ Collaborateurs Pestalozzi  
+- ☑️ Collaborateurs RDL4  
+- ☑️ Visiteurs / techniciens  
 *Précision* : « Tout le monde quoi et j’aime pas trop ça »  
 
 ---
@@ -74,10 +74,10 @@ tags: [IT, sécurité, Dentagest, Pestalozzi]
 
 ### 3. Dentagest
 **Mode d’accès**  
-*Réponse* : ✅ Compte personnel  
+*Réponse* : ☑️ Compte personnel  
 
 **Session administrateur ?**  
-*Réponse* : ✅ Oui (Mélissa seule)  
+*Réponse* : ☑️ Oui (Mélissa seule)  
 
 **Accès admin**  
 *Réponse* : Moi seule (administratrice). Sessions : admin / médecin-dentiste / secrétaire  
@@ -86,7 +86,7 @@ tags: [IT, sécurité, Dentagest, Pestalozzi]
 *Réponses* : AD, HD, MD  
 
 **Accès RDL4 ?**  
-*Réponse* : ✅ Oui – partage ponctuel patients/urgences  
+*Réponse* : ☑️ Oui – partage ponctuel patients/urgences  
 
 ---
 
@@ -107,7 +107,7 @@ tags: [IT, sécurité, Dentagest, Pestalozzi]
 *Réponse* : Mélissa → “Personne ne touche soi-disant mon ordi, sauf Dentagest. Laurie utilise un autre ordi.”  
 
 **Mails confidentiels ?**  
-*Réponse* : ✅ Oui (documents persos sans protection)  
+*Réponse* : ☑️ Oui (documents persos sans protection)  
 
 ---
 

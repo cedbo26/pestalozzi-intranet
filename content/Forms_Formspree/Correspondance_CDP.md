@@ -2,10 +2,7 @@
 formulaire: "Correspondance_CDP"
 date_reception: 2025-08-03
 ---
----
-formulaire: "Correspondance_CDP"
-date_reception: 2025-08-03
----
+
 
 ##### 1. Adresse info@cabinet-dentaire-pestalozzi.ch
 

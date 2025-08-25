@@ -48,22 +48,22 @@ tags:
 # 📎 Annexe – Questionnaire complet (questions + réponses)
 
 > [!info] Mode d’emploi  
-> Questions **numérotées** comme vues par le répondant ; **réponses** formatées, ✅ pour choix cochés.
+> Questions **numérotées** comme vues par le répondant ; **réponses** formatées, ☑️ pour choix cochés.
 
 ## 1) Adresse info@cabinet-dentaire-pestalozzi.ch
 **1.1. Usage de l’adresse info@**  
 *Réponses* :  
-- ✅ Liée au formulaire de contact du site  
-- ✅ Utilisée pour d'autres échanges patients/professionnels  
+- ☑️ Liée au formulaire de contact du site  
+- ☑️ Utilisée pour d'autres échanges patients/professionnels  
 *Autre (préciser)* : —  
 
 **1.2. Types de demandes reçues via info@**  
 *Réponses* :  
-- ✅ Prise de rendez-vous  
-- ✅ Questions sur les traitements  
-- ✅ Facturation / paiements  
-- ✅ Résultats médicaux  
-- ✅ Informations générales  
+- ☑️ Prise de rendez-vous  
+- ☑️ Questions sur les traitements  
+- ☑️ Facturation / paiements  
+- ☑️ Résultats médicaux  
+- ☑️ Informations générales  
 *Autre* : —  
 
 ---
@@ -77,9 +77,9 @@ tags:
 
 **2.3. Utilisation principale (Bluewin)**  
 *Réponses* :  
-- ✅ Facturation  
-- ✅ Résultats médicaux  
-- ✅ Informations générales  
+- ☑️ Facturation  
+- ☑️ Résultats médicaux  
+- ☑️ Informations générales  
 *Autre* : —  
 
 ---
@@ -87,8 +87,8 @@ tags:
 ## 3) Résultats & documents médicaux
 **3.1. Mode d’envoi des résultats/documents**  
 *Réponses* :  
-- ✅ Mail  
-- ✅ Courrier papier  
+- ☑️ Mail  
+- ☑️ Courrier papier  
 - ⬜ Téléphone  
 - ⬜ Remis directement au cabinet  
 *Remarque* : dépend de la demande du patient  
@@ -96,7 +96,7 @@ tags:
 **3.2. Si par mail, adresse utilisée**  
 *Réponses* :  
 - ⬜ info@cabinet-dentaire-pestalozzi.ch  
-- ✅ Adresse Bluewin  
+- ☑️ Adresse Bluewin  
 *Remarque* : —  
 
 ---
@@ -104,16 +104,16 @@ tags:
 ## 4) Informations générales & suivi administratif
 **4.1. Modes d’envoi**  
 *Réponses* :  
-- ✅ Mail  
-- ✅ Téléphone  
-- ✅ Remis directement au cabinet  
+- ☑️ Mail  
+- ☑️ Téléphone  
+- ☑️ Remis directement au cabinet  
 - ⬜ Courrier papier  
 *Remarque* : —  
 
 **4.2. Si par mail, adresse utilisée**  
 *Réponses* :  
 - ⬜ info@cabinet-dentaire-pestalozzi.ch  
-- ✅ Adresse Bluewin  
+- ☑️ Adresse Bluewin  
 *Remarque* : —  
 
 ---
@@ -128,7 +128,7 @@ tags:
 
 **5.3. Mode d’envoi des factures**  
 *Réponses* :  
-- ✅ Mélange papier + mail  
+- ☑️ Mélange papier + mail  
 - ⬜ Papier uniquement  
 - ⬜ Mail uniquement  
 *Remarque* : —  
@@ -138,10 +138,10 @@ tags:
 ## 6) Sauvegardes & documents administratifs
 *(cases cochées : lieu de conservation principal)*
 
-**6.1. Loyer & charges** — *Papier/classeur* ✅ · *Mail* ✅ · *Dossier ordi* ⬜ · *Autre* ⬜  
-**6.2. Assurances** — *Papier/classeur* ✅ · *Mail* ✅ · *Dossier ordi* ⬜ · *Autre* ⬜  
-**6.3. Contrats fournisseurs** — *Papier/classeur* ✅ · *Mail* ✅ · *Dossier ordi* ⬜ · *Autre* ⬜  
-**6.4. Facturation patientèle** — *Mail* ✅ (autres ⬜)  
-**6.5. Comptabilité générale** — *Papier/classeur* ✅ · *Mail* ✅ · *Dossier ordi* ⬜ · *Autre* ⬜  
-**6.6. Courrier administratif** — *Papier/classeur* ✅ · *Mail* ✅ · *Dossier ordi* ⬜ · *Autre* ⬜  
-**6.7. Autres documents** — *Papier/classeur* ✅ · *Mail* ✅ · *Dossier ordi* ⬜ · *Autre* ⬜
+**6.1. Loyer & charges** — *Papier/classeur* ☑️ · *Mail* ☑️ · *Dossier ordi* ⬜ · *Autre* ⬜  
+**6.2. Assurances** — *Papier/classeur* ☑️ · *Mail* ☑️ · *Dossier ordi* ⬜ · *Autre* ⬜  
+**6.3. Contrats fournisseurs** — *Papier/classeur* ☑️ · *Mail* ☑️ · *Dossier ordi* ⬜ · *Autre* ⬜  
+**6.4. Facturation patientèle** — *Mail* ☑️ (autres ⬜)  
+**6.5. Comptabilité générale** — *Papier/classeur* ☑️ · *Mail* ☑️ · *Dossier ordi* ⬜ · *Autre* ⬜  
+**6.6. Courrier administratif** — *Papier/classeur* ☑️ · *Mail* ☑️ · *Dossier ordi* ⬜ · *Autre* ⬜  
+**6.7. Autres documents** — *Papier/classeur* ☑️ · *Mail* ☑️ · *Dossier ordi* ⬜ · *Autre* ⬜

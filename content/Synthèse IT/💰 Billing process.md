@@ -47,14 +47,14 @@ tags:
 # 📎 Annexe – Questionnaire complet
 
 > [!info] Mode d’emploi  
-> Questions **numérotées** comme vues par le répondant ; **réponses** formatées, ✅ pour choix cochés.
+> Questions **numérotées** comme vues par le répondant ; **réponses** formatées, ☑️ pour choix cochés.
 
 ---
 
 ### 1. Envoi des commandes
 **1.1. Mode d’envoi des commandes (CMD)**  
 *Réponses* :  
-- ✅ Dentagest XML  
+- ☑️ Dentagest XML  
 - ⬜ Autre  
 
 **1.2. Fréquence des envois**  
@@ -65,62 +65,62 @@ tags:
 ### 2. Prestations patients privés (PP)
 **2.1. Méthodes de traitement**  
 *Réponses* :  
-- ✅ Dentagest  
-- ✅ Papier  
+- ☑️ Dentagest  
+- ☑️ Papier  
 - ⬜ Autre  
 
 **2.2. Précisions**  
 *Réponse* : Les deux  
 
 **2.3. Envoi des PP**  
-*Réponse* : ✅ Oui  
+*Réponse* : ☑️ Oui  
 
 ---
 
 ### 3. Commandes (CMD)
 **3.1. Mode de traitement**  
 *Réponses* :  
-- ✅ Dentagest  
+- ☑️ Dentagest  
 - ⬜ Autre  
 
 **3.2. Précisions**  
 *Réponse* : CMD envoie par eux  
 
 **3.3. Envoi par le cabinet**  
-*Réponse* : ❌ Non  
+*Réponse* : ⬜ Non  
 
 ---
 
 ### 4. Assurances
 **4.1. Mode de traitement**  
 *Réponses* :  
-- ✅ Papier  
+- ☑️ Papier  
 
 **4.2. Envoi par le cabinet**  
-*Réponse* : ✅ Oui  
+*Réponse* : ☑️ Oui  
 
 ---
 
 ### 5. Société (CMD)
 **5.1. Mode de traitement**  
 *Réponses* :  
-- ✅ Papier  
+- ☑️ Papier  
 
 **5.2. Envoi par le cabinet**  
-*Réponse* : ✅ Oui  
+*Réponse* : ☑️ Oui  
 
 ---
 
 ### 6. Suivi factures & impayés
 **6.1. Suivi des factures et paiements**  
 *Réponses* :  
-- ✅ Dentagest  
-- ✅ Relevé CMD  
-- ✅ Manuel  
+- ☑️ Dentagest  
+- ☑️ Relevé CMD  
+- ☑️ Manuel  
 
 **6.2. Suivi des impayés**  
 *Réponses* :  
-- ✅ Recouvrement CMD  
+- ☑️ Recouvrement CMD  
 - ⬜ Autre  
 *Précision* : dépend si créance rachetée  
 

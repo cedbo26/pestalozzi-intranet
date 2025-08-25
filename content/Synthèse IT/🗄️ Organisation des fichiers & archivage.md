@@ -48,21 +48,21 @@ tags:
 
 # 📎 Annexe – Questionnaire complet
 > [!info] Mode d’emploi  
-> Questions **numérotées** comme vues par le répondant ; **réponses** formatées, ✅ pour choix cochés.
+> Questions **numérotées** comme vues par le répondant ; **réponses** formatées, ☑️ pour choix cochés.
 
 ---
 
 ### 1. Données patients dans Dentagest
 **1.1. Dentagest contient-il toutes les données patients ?**  
-*Réponse* : ✅ Oui, mais certains documents ailleurs  
+*Réponse* : ☑️ Oui, mais certains documents ailleurs  
 
 **1.2. Remarque complémentaire**  
 *Réponse* : dossiers papiers pas encore numérisés  
 
 **1.3. Si certains docs sont ailleurs, où ?**  
 *Réponses* :  
-- ✅ Ordinateur Melissa  
-- ✅ Documents papier  
+- ☑️ Ordinateur Melissa  
+- ☑️ Documents papier  
 - ⬜ Disque dur externe  
 *Remarque* : —  
 
@@ -71,43 +71,43 @@ tags:
 ### 2. Imagerie médicale
 **2.1. Où stockez-vous l’imagerie médicale ?**  
 *Réponses* :  
-- ✅ Dentagest  
-- ✅ Logiciel dédié (Digora)  
+- ☑️ Dentagest  
+- ☑️ Logiciel dédié (Digora)  
 - ⬜ Ordinateur Melissa  
 *Remarque* : —  
 
 **2.2. Radios reliées à Dentagest ?**  
-*Réponse* : ✅ Oui  
+*Réponse* : ☑️ Oui  
 
 ---
 
 ### 3. Correspondances patients
 **3.1. Moyens de communication utilisés ?**  
 *Réponses* :  
-- ✅ Email  
-- ✅ Téléphone  
-- ✅ SMS  
-- ✅ Courrier  
+- ☑️ Email  
+- ☑️ Téléphone  
+- ☑️ SMS  
+- ☑️ Courrier  
 
 **3.2. Remarque complémentaire**  
 *Réponse* : surtout téléphone + mail  
 
 **3.3. Adresses email utilisées**  
 *Réponses* :  
-- ✅ info@cabinet-dentaire-pestalozzi.ch  
-- ✅ Bluewin  
+- ☑️ info@cabinet-dentaire-pestalozzi.ch  
+- ☑️ Bluewin  
 
 **3.4. Qui a accès aux boîtes mail ?**  
 *Réponses* :  
-- ✅ Melissa  
-- ✅ Dentiste  
+- ☑️ Melissa  
+- ☑️ Dentiste  
 - ⬜ Assistante  
 - ⬜ Hygiéniste  
 
 **3.5. Archivage des mails importants**  
 *Réponses* :  
-- ✅ Pas d’archivage particulier  
-- ✅ Dossiers email  
+- ☑️ Pas d’archivage particulier  
+- ☑️ Dossiers email  
 - ⬜ Papier  
 *Autre* : “boîte Bluewin uniquement par le médecin-dentiste”  
 
@@ -116,10 +116,10 @@ tags:
 ### 4. Facturation & fiduciaire
 **4.1. Quels docs envoyez-vous à la fiduciaire ?**  
 *Réponses* :  
-- ✅ Factures patients privés  
-- ✅ Factures assurances  
-- ✅ Reçus paiements  
-- ✅ Dépenses diverses  
+- ☑️ Factures patients privés  
+- ☑️ Factures assurances  
+- ☑️ Reçus paiements  
+- ☑️ Dépenses diverses  
 *Autre* : pas compris la question  
 
 **4.2. Fréquence d’envoi ?**  
@@ -127,16 +127,16 @@ tags:
 
 **4.3. Moyen d’envoi ?**  
 *Réponses* :  
-- ✅ Email  
-- ✅ Papier  
-- ✅ Mixte  
+- ☑️ Email  
+- ☑️ Papier  
+- ☑️ Mixte  
 *Remarque* : —  
 
 ---
 
 ### 5. Formulaires patients
 **5.1. Format des formulaires patients**  
-*Réponse* : ✅ Papier + numérisés  
+*Réponse* : ☑️ Papier + numérisés  
 
 **5.2. Remarque complémentaire**  
 *Réponse* : numérisation partielle  
@@ -146,7 +146,7 @@ tags:
 
 **5.4. Stockage numérique**  
 *Réponses* :  
-- ✅ Ordinateur Melissa  
+- ☑️ Ordinateur Melissa  
 *Autre* : “ne sait pas où exactement, espère que Dentagest gère”  
 
 ---
@@ -156,22 +156,22 @@ tags:
 *Réponse* : Partiel (ex. anamnèse)  
 
 **6.2. Format d’archivage privilégié**  
-*Réponse* : ✅ PDF (ok aussi autres formats)  
+*Réponse* : ☑️ PDF (ok aussi autres formats)  
 
 ---
 
 ### 7. Organisation & accès
 **7.1. Qui a accès aux docs patients numériques ?**  
 *Réponses* :  
-- ✅ Melissa  
-- ✅ Assistante  
-- ✅ Hygiéniste  
-- ✅ Dentiste  
+- ☑️ Melissa  
+- ☑️ Assistante  
+- ☑️ Hygiéniste  
+- ☑️ Dentiste  
 
 **7.2. Mode de classement**  
 *Réponses* :  
-- ✅ Par type de document  
-- ✅ Aucun classement  
+- ☑️ Par type de document  
+- ☑️ Aucun classement  
 - ⬜ Par patient  
 - ⬜ Par date  
 *Autre* : —  
