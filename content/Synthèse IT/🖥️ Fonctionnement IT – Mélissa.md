@@ -7,6 +7,9 @@ consultant: "Synthèse IT"
 source: "Formspree"
 respondant: "Melissa"
 tags: [IT, sécurité, Dentagest, Pestalozzi]
+backlinks:
+  - Acces_IT_CDP
+  - 🧭 Synthèse IT – Cabinet Pestalozzi
 ---
 
 ## 🔎 Diagnostic express
@@ -142,4 +145,8 @@ tags: [IT, sécurité, Dentagest, Pestalozzi]
 ---
 
 ### 8. Remarques
-*Réponse* : “J’espère avoir répondu correctement aux questions et merci pour ton aide”  
+*Réponse* : “J’espère avoir répondu correctement aux questions et merci pour ton aide”
+
+## 🔗 Liens
+- [[Acces_IT_CDP]]
+- [[🧭 Synthèse IT – Cabinet Pestalozzi]]

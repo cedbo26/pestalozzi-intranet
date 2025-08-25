@@ -8,6 +8,15 @@ tags:
   - IT
   - synthese
   - pestalozzi
+backlinks:
+  - 🖥️ Fonctionnement IT – Mélissa
+  - 🗄️ Organisation des fichiers & archivage
+  - 📁 Correspondance et flux de fichiers
+  - 💰 Billing process
+  - Acces_IT_CDP
+  - Organisation_Fichiers_CDP
+  - Correspondance_CDP
+  - Facturation_1
 ---
 ## 🔎 Diagnostic global
 - 🔐 **Sécurité & accès** : sessions partagées, pas de verrouillage → ❌ mais **existence d’une session admin protégée** → ✅  
@@ -125,4 +134,14 @@ tags:
 ## 🎯 Feuille de route globale
 1. **Court terme** → sécurité PC, standardisation mails sensibles, centralisation Dentagest.  
 2. **Intermédiaire** → archivage structuré, audit accès Dentagest, suivi factures.  
-3. **Structurant** → externalisation IT, canal sécurisé patient, contrat CMD.  
+3. **Structurant** → externalisation IT, canal sécurisé patient, contrat CMD.
+
+## 🔗 Liens
+- [[🖥️ Fonctionnement IT – Mélissa]]
+- [[🗄️ Organisation des fichiers & archivage]]
+- [[📁 Correspondance et flux de fichiers]]
+- [[💰 Billing process]]
+- [[Acces_IT_CDP]]
+- [[Organisation_Fichiers_CDP]]
+- [[Correspondance_CDP]]
+- [[Facturation_1]]

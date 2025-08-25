@@ -11,6 +11,9 @@ tags:
   - facturation
   - dentagest
   - pestalozzi
+backlinks:
+  - Facturation_1
+  - 🧭 Synthèse IT – Cabinet Pestalozzi
 ---
 ## 🔎 Diagnostic express
 - 🦷 **Dentagest central** : utilisé pour les prestations, commandes, relevés CMD → bonne intégration de base.  
@@ -137,4 +140,8 @@ tags:
 *Réponse* : Variable  
 
 **7.4. Délai société (CMD)**  
-*Réponse* : Variable  
+*Réponse* : Variable
+
+## 🔗 Liens
+- [[Facturation_1]]
+- [[🧭 Synthèse IT – Cabinet Pestalozzi]]

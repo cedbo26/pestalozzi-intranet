@@ -1,6 +1,9 @@
 ---
 formulaire: "Acces_Ordinateur_Principal_Melissa"
 date_reception: 2025-07-31
+backlinks:
+  - 🖥️ Fonctionnement IT – Mélissa
+  - 🧭 Synthèse IT – Cabinet Pestalozzi
 ---
 
 ##### 1) Ordinateur principal de Mélissa / Pestalozzi
@@ -215,3 +218,7 @@ date_reception: 2025-07-31
 > Commentaires / précisions à propos de ce formulaire
 
 - J’espère avoir répondue correctement aux questions et merci pour ton aide
+
+## 🔗 Liens
+- [[🖥️ Fonctionnement IT – Mélissa]]
+- [[🧭 Synthèse IT – Cabinet Pestalozzi]]

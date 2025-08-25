@@ -12,6 +12,9 @@ tags:
   - securite
   - dentagest
   - pestalozzi
+backlinks:
+  - Correspondance_CDP
+  - 🧭 Synthèse IT – Cabinet Pestalozzi
 ---
 ## 🔎 Diagnostic express
 - 📧 **Canaux** : adresse **info@** pour le site & échanges généraux ; **Bluewin** largement utilisée (y c. résultats & facturation) → dispersion.
@@ -145,3 +148,7 @@ tags:
 **6.5. Comptabilité générale** — *Papier/classeur* ☑️ · *Mail* ☑️ · *Dossier ordi* ⬜ · *Autre* ⬜  
 **6.6. Courrier administratif** — *Papier/classeur* ☑️ · *Mail* ☑️ · *Dossier ordi* ⬜ · *Autre* ⬜  
 **6.7. Autres documents** — *Papier/classeur* ☑️ · *Mail* ☑️ · *Dossier ordi* ⬜ · *Autre* ⬜
+
+## 🔗 Liens
+- [[Correspondance_CDP]]
+- [[🧭 Synthèse IT – Cabinet Pestalozzi]]

@@ -1,6 +1,9 @@
 ---
 formulaire: "Correspondance_CDP"
 date_reception: 2025-08-03
+backlinks:
+  - 📁 Correspondance et flux de fichiers
+  - 🧭 Synthèse IT – Cabinet Pestalozzi
 ---
 
 
@@ -136,3 +139,7 @@ date_reception: 2025-08-03
 | Comptabilité générale  | ☑️               | ☑️                         | ❌                           | ❌     |
 | Courrier administratif | ☑️               | ☑️                         | ❌                           | ❌     |
 | Autres documents       | ☑️               | ☑️                         | ❌                           | ❌     |
+
+## 🔗 Liens
+- [[📁 Correspondance et flux de fichiers]]
+- [[🧭 Synthèse IT – Cabinet Pestalozzi]]

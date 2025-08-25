@@ -1,6 +1,9 @@
 ---
 formulaire: Facturation_1
 date_reception: 2025-07-31 00:15
+backlinks:
+  - 💰 Billing process
+  - 🧭 Synthèse IT – Cabinet Pestalozzi
 ---
 
 ##### 1. Méthode d’envoi vers la Caisse des Médecins
@@ -96,3 +99,7 @@ date_reception: 2025-07-31 00:15
 | Caisse des Médecins | Variable |
 | Assurances complémentaires | Variable |
 | Aide sociale / Service social | Variable |
+
+## 🔗 Liens
+- [[💰 Billing process]]
+- [[🧭 Synthèse IT – Cabinet Pestalozzi]]

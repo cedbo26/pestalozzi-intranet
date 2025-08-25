@@ -1,6 +1,9 @@
 ---
 formulaire: "Organisation_Fichiers_CDP"
 date_reception: 2025-07-31 09:39
+backlinks:
+  - 🗄️ Organisation des fichiers & archivage
+  - 🧭 Synthèse IT – Cabinet Pestalozzi
 ---
 
 ##### 1. Données patients dans Dentagest
@@ -189,3 +192,7 @@ date_reception: 2025-07-31 09:39
 | Par type de document         | ☑️ |
 | Pas de classement particulier| ☑️ |
 | Autre                        | ⬜ |
+
+## 🔗 Liens
+- [[🗄️ Organisation des fichiers & archivage]]
+- [[🧭 Synthèse IT – Cabinet Pestalozzi]]

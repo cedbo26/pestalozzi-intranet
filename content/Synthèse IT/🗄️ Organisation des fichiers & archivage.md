@@ -12,6 +12,9 @@ tags:
   - correspondance
   - dentagest
   - pestalozzi
+backlinks:
+  - Organisation_Fichiers_CDP
+  - 🧭 Synthèse IT – Cabinet Pestalozzi
 ---
 
 ## 🔎 Diagnostic express
@@ -174,4 +177,8 @@ tags:
 - ☑️ Aucun classement  
 - ⬜ Par patient  
 - ⬜ Par date  
-*Autre* : —  
+*Autre* : —
+
+## 🔗 Liens
+- [[Organisation_Fichiers_CDP]]
+- [[🧭 Synthèse IT – Cabinet Pestalozzi]]
