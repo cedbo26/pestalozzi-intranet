@@ -1,5 +1,5 @@
 ---
-title: Organigramme – Cabinet dentaire Pestalozzi
+title: Organigramme
 category: organisation
 date: 2025-08-25
 projet: Pestalozzi

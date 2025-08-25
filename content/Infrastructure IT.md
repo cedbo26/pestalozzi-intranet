@@ -1,11 +1,15 @@
 ---
-title: "Infrastructure IT — Cabinet Dentaire Pestalozzi"
-type: "IT_Infrastructure"
-projet: "Pestalozzi"
+title: Infrastructure IT
+type: IT_Infrastructure
+projet: Pestalozzi
 date: 2025-07-31
-categorie: ["hébergement", "email", "sauvegarde", "réseau"]
-responsable: "Melissa"
-statut: "à clarifier"
+categorie:
+  - hébergement
+  - email
+  - sauvegarde
+  - réseau
+responsable: Melissa
+statut: à clarifier
 ---
 
 ## 🌐 Hébergement Web & Domaine

@@ -16,21 +16,31 @@ backlinks:
   - 🧭 Synthèse IT – Cabinet Pestalozzi
 ---
 ## 🔎 Diagnostic express
-- 🦷 **Dentagest central** : utilisé pour les prestations, commandes, relevés CMD → bonne intégration de base.  
-- 📦 **Envoi des commandes** : XML via Dentagest, mensuel → structuré, mais dépendance au logiciel.  
-- 📑 **Prestations patients privés (PP)** : traitées à la fois via Dentagest & papier → duplication des supports.  
-- 📮 **Factures assurances / société CMD** : acheminées de manière hétérogène, parfois papier, parfois intégré → peu standardisé.  
-- 🧾 **Suivi des impayés** : confié à CMD en recouvrement, mais avec exceptions (“si créance rachetée”) → pas de règle unique.  
-- ⏳ **Délais paiements** : variables, non monitorés → absence de pilotage de trésorerie.  
+- 🦷 **Dentagest central** : utilisé pour les prestations, commandes, relevés CMD 
+  *→ bonne intégration de base.*  
+- 📦 **Envoi des commandes** : XML via Dentagest, mensuel 
+  *→ structuré, mais dépendance au logiciel.*  
+- 📑 **Prestations patients privés (PP)** : traitées à la fois via Dentagest & papier 
+  *→ duplication des supports.*  
+- 📮 **Factures assurances / société CMD** : acheminées de manière hétérogène, parfois papier, parfois intégré 
+  *→ peu standardisé.*  
+- 🧾 **Suivi des impayés** : confié à CMD en recouvrement, mais avec exceptions (“si créance rachetée”) 
+  *→ pas de règle unique.*  
+- ⏳ **Délais paiements** : variables, non monitorés 
+  *→ absence de pilotage de trésorerie.*  
 
 ---
 
 ## ⚠️ Risques identifiés
 > [!danger]  
-> - 🔄 **Double flux** (Dentagest + papier) → erreurs et perte de cohérence.  
-> - 🕳️ **Suivi impayés dépendant de CMD** → peu de maîtrise interne, risque de créances perdues.  
-> - ⏳ **Délais aléatoires** non tracés → tension sur trésorerie, incapacité de prévoir encaissements.  
-> - 🔓 **Envoi hétérogène** (factures assurances & CMD) → risque d’oublis, dispersion des preuves.  
+> - 🔄 **Double flux** (Dentagest + papier) 
+>   → erreurs et perte de cohérence.  
+> - 🕳️ **Suivi impayés dépendant de CMD** 
+>   *→ peu de maîtrise interne, risque de créances perdues.*  
+> - ⏳ **Délais aléatoires** non tracés 
+>   *→ tension sur trésorerie, incapacité de prévoir encaissements.*  
+> - 🔓 **Envoi hétérogène** (factures assurances & CMD) 
+>   *→ risque d’oublis, dispersion des preuves.*  
 
 ---
 

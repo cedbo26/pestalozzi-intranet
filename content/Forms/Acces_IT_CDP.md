@@ -30,12 +30,12 @@ backlinks:
 
 > Qui peut accéder physiquement à cet ordinateur ?
 
-| Option                          | Sélectionné |
-|----------------------------------|-------------|
-| Collaborateurs Pestalozzi        | ☑️ |
-| Collaborateurs RDL4              | 🔘 |
-| Visiteurs / techniciens          | 🔘 |
-| Autre                            | ⚪ |
+| Option                    | Sélectionné |
+| ------------------------- | ----------- |
+| Collaborateurs Pestalozzi | ☑️          |
+| Collaborateurs RDL4       | ☑️          |
+| Visiteurs / techniciens   | ☑️          |
+| Autre                     | ⬜           |
 
 > Précisions sur l’accès physique (noms, rôles, situations)
 
@@ -103,12 +103,12 @@ backlinks:
 
 > Quels logiciels sont utilisés sur cet ordinateur ?
 
-| Logiciel                  | Sélectionné |
-|---------------------------|-------------|
-| Outlook                   | ☑️ |
-| Suite bureautique         | ☑️ |
-| Navigateur                | ☑️ |
-| Autre                     | ⬜ |
+| Logiciel          | Sélectionné |
+| ----------------- | ----------- |
+| Outlook           | ☑️          |
+| Suite bureautique | ☑️          |
+| Navigateur        | ☑️          |
+| Autre             | ⬜           |
 
 > Précisions sur les autres logiciels (nom + usage)
 
