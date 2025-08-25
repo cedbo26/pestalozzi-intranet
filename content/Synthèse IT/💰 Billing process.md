@@ -15,6 +15,7 @@ backlinks:
   - Facturation_1
   - 🧭 Synthèse IT – Cabinet Pestalozzi
 ---
+
 ## 🔎 Diagnostic express
 - 🦷 **Dentagest central** : utilisé pour les prestations, commandes, relevés CMD 
   *→ bonne intégration de base.*  
@@ -57,101 +58,10 @@ backlinks:
 
 ---
 
-# 📎 Annexe – Questionnaire complet
-
-> [!info] Mode d’emploi  
-> Questions **numérotées** comme vues par le répondant ; **réponses** formatées, ☑️ pour choix cochés.
-
----
-
-### 1. Envoi des commandes
-**1.1. Mode d’envoi des commandes (CMD)**  
-*Réponses* :  
-- ☑️ Dentagest XML  
-- ⬜ Autre  
-
-**1.2. Fréquence des envois**  
-*Réponse* : Chaque mois (1x/mois)  
-
----
-
-### 2. Prestations patients privés (PP)
-**2.1. Méthodes de traitement**  
-*Réponses* :  
-- ☑️ Dentagest  
-- ☑️ Papier  
-- ⬜ Autre  
-
-**2.2. Précisions**  
-*Réponse* : Les deux  
-
-**2.3. Envoi des PP**  
-*Réponse* : ☑️ Oui  
-
----
-
-### 3. Commandes (CMD)
-**3.1. Mode de traitement**  
-*Réponses* :  
-- ☑️ Dentagest  
-- ⬜ Autre  
-
-**3.2. Précisions**  
-*Réponse* : CMD envoie par eux  
-
-**3.3. Envoi par le cabinet**  
-*Réponse* : ⬜ Non  
-
----
-
-### 4. Assurances
-**4.1. Mode de traitement**  
-*Réponses* :  
-- ☑️ Papier  
-
-**4.2. Envoi par le cabinet**  
-*Réponse* : ☑️ Oui  
-
----
-
-### 5. Société (CMD)
-**5.1. Mode de traitement**  
-*Réponses* :  
-- ☑️ Papier  
-
-**5.2. Envoi par le cabinet**  
-*Réponse* : ☑️ Oui  
-
----
-
-### 6. Suivi factures & impayés
-**6.1. Suivi des factures et paiements**  
-*Réponses* :  
-- ☑️ Dentagest  
-- ☑️ Relevé CMD  
-- ☑️ Manuel  
-
-**6.2. Suivi des impayés**  
-*Réponses* :  
-- ☑️ Recouvrement CMD  
-- ⬜ Autre  
-*Précision* : dépend si créance rachetée  
-
----
-
-### 7. Délais de paiements
-**7.1. Délai patients privés (PP)**  
-*Réponse* : 2–4 semaines  
-
-**7.2. Délai CMD**  
-*Réponse* : Variable  
-
-**7.3. Délai assurances**  
-*Réponse* : Variable  
-
-**7.4. Délai société (CMD)**  
-*Réponse* : Variable
-
-## 🔗 Liens
-- [[Facturation_1]]
-- [[🧭 Synthèse IT]]
+> [!info] Références
+> - Questionnaire source : [[Facturation_1]]
+> - Synthèse globale : [[🧭 Synthèse IT]]
+> - Autres questionnaires :
+>   - [[Acces_IT_CDP]]
+>   - [[Organisation_Fichiers_CDP]]
+>   - [[Correspondance_CDP]]

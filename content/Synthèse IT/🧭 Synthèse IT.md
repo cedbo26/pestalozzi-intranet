@@ -1,5 +1,5 @@
 ---
-title: Synthèse IT – Cabinet Pestalozzi
+title: Synthèse IT
 category: synthese_globale
 date: 2025-08-25
 scope: Cabinet Pestalozzi
@@ -19,13 +19,22 @@ backlinks:
   - Facturation_1
 ---
 ## 🔎 Diagnostic global
-- 🔐 **Sécurité & accès** : sessions partagées, pas de verrouillage → ❌ mais **existence d’une session admin protégée** → ✅  
-- 📧 **Mails & correspondance** : 
-  ✅  bonne adoption d’**info@ pour le site et RDV**
 
-  ❌ usage Bluewin pour résultats 
-- 🗄️ **Organisation & archivage** : docs dispersés ❌, mais **Dentagest est déjà la base centrale** → ✅  
-- 💰 **Facturation** : flux hétérogènes ❌, mais **Dentagest intégré avec CMD** → ✅  
+- 🔐 **Sécurité & accès**  
+  ✅ Existence d’une session admin protégée  
+  ❌ Sessions partagées, pas de verrouillage  
+
+- 📧 **Mails & correspondance**  
+  ✅ Bonne adoption de l’adresse **info@** pour le site et les RDV  
+  ❌ Usage de Bluewin pour les résultats  
+
+- 🗄️ **Organisation & archivage**  
+  ✅ Dentagest déjà utilisé comme base centrale  
+  ❌ Documents dispersés  
+
+- 💰 **Facturation**  
+  ✅ Dentagest intégré avec CMD  
+  ❌ Flux hétérogènes  
 
 ---
 

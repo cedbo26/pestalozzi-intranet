@@ -13,11 +13,26 @@ backlinks:
 ---
 
 ## 🔎 Diagnostic express
-- 🔐 **Sécurité faible** : mot de passe partagé ❌, pas de verrouillage auto ❌  
-- 👥 **Accès physique** : collaborateurs + visiteurs peuvent utiliser l’ordinateur ⚠️  
-- 📧 **Mails non maîtrisés** : mélange pro/perso ❌, docs sensibles sans protection ⚠️  
-- 🦷 **Dentagest** : Mélissa seule admin ✅ mais partages informels RDL4 ❌  
-- 🗄️ **Serveur** : dépendance au serveur Duc, TeamViewer ouvert ⚠️  
+
+- 🔐 **Sécurité faible**  
+  Mot de passe partagé ❌  
+  Pas de verrouillage automatique ❌  
+
+- 👥 **Accès physique**  
+  Collaborateurs + visiteurs peuvent utiliser l’ordinateur  
+  ⚠️ Risque d’accès non contrôlé  
+
+- 📧 **Mails non maîtrisés**  
+  Mélange pro/perso ❌  
+  Documents sensibles envoyés sans protection ⚠️  
+
+- 🦷 **Dentagest**  
+  Mélissa seule admin ✅  
+  Mais partages informels avec RDL4 ❌  
+
+- 🗄️ **Serveur**  
+  Dépendance au serveur Duc  
+  ⚠️ Accès TeamViewer ouvert
 
 ---
 
@@ -40,113 +55,12 @@ backlinks:
 
 ---
 
-# 📎 Annexe – Questionnaire complet
 
-> [!info]  
-> **Questionnaire tel que présenté + réponses intégrées**  
+> [!info] Références
+> - Questionnaire source : [[Acces_IT_CDP]]
+> - Synthèse globale : [[🧭 Synthèse IT]]
+> - Autres questionnaires :
+>   - [[Organisation_Fichiers_CDP]]
+>   - [[Correspondance_CDP]]
+>   - [[Facturation_1]]
 
----
-
-### 1. Ordinateur principal
-**Nom ou description de l’ordinateur (si connu)**  
-*Réponse* : Ordinateur principal de Mélissa / Pestalozzi  
-
-**Mot de passe de session ?**  
-*Réponse* : ⬜ Partagé avec d’autres personnes  
-
-**Verrouillage automatique après inactivité ?**  
-*Réponse* : ⬜ Jamais  
-
-**Qui peut accéder physiquement à cet ordinateur ?**  
-*Réponses* :  
-- ☑️ Collaborateurs Pestalozzi  
-- ☑️ Collaborateurs RDL4  
-- ☑️ Visiteurs / techniciens  
-*Précision* : « Tout le monde quoi et j’aime pas trop ça »  
-
----
-
-### 2. Sessions et identifiants
-**Type de session**  
-*Réponse* : Mixte (perso + partagée)  
-
-**Qui connaît le mot de passe ?**  
-*Réponse* : « Tu veux dire quoi par session principale ? »  
-
----
-
-### 3. Dentagest
-**Mode d’accès**  
-*Réponse* : ☑️ Compte personnel  
-
-**Session administrateur ?**  
-*Réponse* : ☑️ Oui (Mélissa seule)  
-
-**Accès admin**  
-*Réponse* : Moi seule (administratrice). Sessions : admin / médecin-dentiste / secrétaire  
-
-**Prestations (saisie)**  
-*Réponses* : AD, HD, MD  
-
-**Accès RDL4 ?**  
-*Réponse* : ☑️ Oui – partage ponctuel patients/urgences  
-
----
-
-### 4. Logiciels
-**Logiciels utilisés**  
-*Réponses* : Outlook, Suite bureautique, Navigateur  
-
----
-
-### 5. Emails
-**Boîtes configurées**  
-*Réponses* : info@cabinet-dentaire-pestalozzi.ch, Bluewin Mélissa (+ adresse privée)  
-
-**Méthodes d’accès**  
-*Réponses* : Outlook PC, Webmail, Application mobile  
-
-**Accès tiers aux mails ?**  
-*Réponse* : Mélissa → “Personne ne touche soi-disant mon ordi, sauf Dentagest. Laurie utilise un autre ordi.”  
-
-**Mails confidentiels ?**  
-*Réponse* : ☑️ Oui (documents persos sans protection)  
-
----
-
-### 6. Fichiers & serveur
-**Stockage principal**  
-*Réponse* : Serveur (Duc)  
-
-**Précisions**  
-*Réponse* : “Serveur Duc plus récent. Besoin d’un expert IT.”  
-
-**Répartition**  
-*Réponse* : Radiologie & Dentagest sur serveur  
-
-**Accès serveur**  
-*Réponse* : Collaborateurs via TeamViewer  
-
-**Dossiers confidentiels**  
-*Réponse* : “À part les miens, le reste all good”  
-
----
-
-### 7. RDL4 – type d’accès
-*Réponses* :  
-- Duc : —  
-- Aldo Allo : Prestations  
-- Chloé : Prestations  
-- Valérie : Prestations  
-- Marise : —  
-- Sarah : —  
-- Sylviane : —  
-
----
-
-### 8. Remarques
-*Réponse* : “J’espère avoir répondu correctement aux questions et merci pour ton aide”
-
-## 🔗 Liens
-- [[Acces_IT_CDP]]
-- [[🧭 Synthèse IT]]

@@ -4,10 +4,10 @@ description: "La page d’accueil pour retrouver toutes les infos utiles (versio
 ---
 # 👋 Bienvenue Mélissa
 
-Ceci est ton **panneau de bord**.  
-Pas besoin d’être technique → clique simplement sur les rubriques ci-dessous.  
-Ici tu retrouves les synthèses IT, tes formulaires complétés, ainsi que l’organisation et l’infrastructure du cabinet.  
+Ceci est ton **panneau de bord**. 
 
+ Pas besoin d’être technique → clique simplement sur les rubriques ci-dessous et navigue à ta guise
+ 
 ---
 
 ## 📊 Synthèses IT

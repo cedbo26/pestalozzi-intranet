@@ -16,12 +16,29 @@ backlinks:
   - Correspondance_CDP
   - 🧭 Synthèse IT – Cabinet Pestalozzi
 ---
+
 ## 🔎 Diagnostic express
-- 📧 **Canaux** : adresse **info@** pour le site & échanges généraux ; **Bluewin** largement utilisée (y c. résultats & facturation) → dispersion.
-- 🔒 **Sensibles par email** : **résultats médicaux** & **facturation** transitent souvent par **Bluewin** (grand public) → surface de risque élevée.
-- 🗃️ **Archivage** : pratique **mixte papier + mail** pour la plupart des catégories (loyer, assurances, compta, etc.) → traçabilité et recherche perfectibles.
-- 🧭 **Rôles** : envoi des factures **partiellement** par Mélissa et **avec CMD** → process partagé, peu formalisé.
-- 🧾 **Génération de factures** : “**Toutes**” générées (outil clinique) → bon point, mais l’acheminement reste hétérogène.
+
+- 📧 **Canaux**  
+  Adresse **info@** bien utilisée pour le site & échanges généraux  
+  Mais **Bluewin** reste largement utilisée (résultats, facturation)  
+  *→ Dispersion des canaux*
+
+- 🔒 **Sensibles par email**  
+  **Résultats médicaux** & **facturation** transitent encore par **Bluewin** (grand public)  
+  *→ Surface de risque élevée*
+
+- 🗃️ **Archivage**  
+  Pratique **mixte papier + mail** pour la plupart des catégories (loyer, assurances, compta, etc.)  
+  *→ Traçabilité et recherche perfectibles*
+
+- 🧭 **Rôles**  
+  Factures envoyées **partiellement par Mélissa** et **via CMD**  
+  *→ Process partagé, peu formalisé*
+
+- 🧾 **Génération de factures**  
+  “**Toutes**” générées via l’outil clinique  
+  *→ Bon point, mais l’acheminement reste hétérogène*
 
 ---
 
@@ -48,107 +65,11 @@ backlinks:
 
 ---
 
-# 📎 Annexe – Questionnaire complet (questions + réponses)
 
-> [!info] Mode d’emploi  
-> Questions **numérotées** comme vues par le répondant ; **réponses** formatées, ☑️ pour choix cochés.
-
-## 1) Adresse info@cabinet-dentaire-pestalozzi.ch
-**1.1. Usage de l’adresse info@**  
-*Réponses* :  
-- ☑️ Liée au formulaire de contact du site  
-- ☑️ Utilisée pour d'autres échanges patients/professionnels  
-*Autre (préciser)* : —  
-
-**1.2. Types de demandes reçues via info@**  
-*Réponses* :  
-- ☑️ Prise de rendez-vous  
-- ☑️ Questions sur les traitements  
-- ☑️ Facturation / paiements  
-- ☑️ Résultats médicaux  
-- ☑️ Informations générales  
-*Autre* : —  
-
----
-
-## 2) Adresse Bluewin
-**2.1. Adresse exacte**  
-*Réponse* : `cabinetdentairepestalozzi@bluewin.ch`  
-
-**2.2. Qui envoie et pour quel type de correspondance ?**  
-*Réponse* : Pub médicale, rapports, commandes, assurances, etc.  
-
-**2.3. Utilisation principale (Bluewin)**  
-*Réponses* :  
-- ☑️ Facturation  
-- ☑️ Résultats médicaux  
-- ☑️ Informations générales  
-*Autre* : —  
-
----
-
-## 3) Résultats & documents médicaux
-**3.1. Mode d’envoi des résultats/documents**  
-*Réponses* :  
-- ☑️ Mail  
-- ☑️ Courrier papier  
-- ⬜ Téléphone  
-- ⬜ Remis directement au cabinet  
-*Remarque* : dépend de la demande du patient  
-
-**3.2. Si par mail, adresse utilisée**  
-*Réponses* :  
-- ⬜ info@cabinet-dentaire-pestalozzi.ch  
-- ☑️ Adresse Bluewin  
-*Remarque* : —  
-
----
-
-## 4) Informations générales & suivi administratif
-**4.1. Modes d’envoi**  
-*Réponses* :  
-- ☑️ Mail  
-- ☑️ Téléphone  
-- ☑️ Remis directement au cabinet  
-- ⬜ Courrier papier  
-*Remarque* : —  
-
-**4.2. Si par mail, adresse utilisée**  
-*Réponses* :  
-- ⬜ info@cabinet-dentaire-pestalozzi.ch  
-- ☑️ Adresse Bluewin  
-*Remarque* : —  
-
----
-
-## 5) Facturation patients privés
-**5.1. Les factures sont-elles générées par Dentagest ?**  
-*Réponse* : **Toutes**  
-
-**5.2. Qui envoie les factures ?**  
-*Réponse* : **Melissa partiel**  
-*Autre personne (préciser)* : en collaboration avec **CMD**  
-
-**5.3. Mode d’envoi des factures**  
-*Réponses* :  
-- ☑️ Mélange papier + mail  
-- ⬜ Papier uniquement  
-- ⬜ Mail uniquement  
-*Remarque* : —  
-
----
-
-## 6) Sauvegardes & documents administratifs
-*(cases cochées : lieu de conservation principal)*
-
-**6.1. Loyer & charges** — *Papier/classeur* ☑️ · *Mail* ☑️ · *Dossier ordi* ⬜ · *Autre* ⬜  
-**6.2. Assurances** — *Papier/classeur* ☑️ · *Mail* ☑️ · *Dossier ordi* ⬜ · *Autre* ⬜  
-**6.3. Contrats fournisseurs** — *Papier/classeur* ☑️ · *Mail* ☑️ · *Dossier ordi* ⬜ · *Autre* ⬜  
-**6.4. Facturation patientèle** — *Mail* ☑️ (autres ⬜)  
-**6.5. Comptabilité générale** — *Papier/classeur* ☑️ · *Mail* ☑️ · *Dossier ordi* ⬜ · *Autre* ⬜  
-**6.6. Courrier administratif** — *Papier/classeur* ☑️ · *Mail* ☑️ · *Dossier ordi* ⬜ · *Autre* ⬜  
-**6.7. Autres documents** — *Papier/classeur* ☑️ · *Mail* ☑️ · *Dossier ordi* ⬜ · *Autre* ⬜
-
-## 🔗 Liens
-- [[Correspondance_CDP]]
-- [[🧭 Synthèse IT]]
+> [!info] Références
+> - Questionnaire source : [[Correspondance_CDP]]
+> - Synthèse globale : [[🧭 Synthèse IT]]
+> - Autres questionnaires :
+>   - [[Acces_IT_CDP]]
+>   - [[Organisation_Fichiers_CDP]]
+>   - [[Facturation_1]]
