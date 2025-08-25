@@ -13,20 +13,20 @@ date_reception: 2025-08-03
 
 | Usage de l’adresse | Sélectionné |
 |----------------------------------------------|-------------|
-| Liée au formulaire de contact du site        | ✅ |
-| Utilisée pour d'autres échanges patients/professionnels | ✅ |
-| Autre (préciser)                             | N/A |
+| Liée au formulaire de contact du site        | ☑️ |
+| Utilisée pour d'autres échanges patients/professionnels | ☑️ |
+| Autre (préciser)                             | ⬜ |
 
 > Types de demandes reçues :
 
 | Type de demande reçue           | Sélectionné |
 |---------------------------------|-------------|
-| Prise de rendez-vous            | ✅ |
-| Questions sur les traitements   | ✅ |
-| Facturation / paiements         | ✅ |
-| Résultats médicaux              | ✅ |
-| Informations générales          | ✅ |
-| Autre                           | N/A |
+| Prise de rendez-vous            | ☑️ |
+| Questions sur les traitements   | ☑️ |
+| Facturation / paiements         | ☑️ |
+| Résultats médicaux              | ☑️ |
+| Informations générales          | ☑️ |
+| Autre                           | ⬜ |
 
 ---
 
@@ -43,10 +43,10 @@ date_reception: 2025-08-03
 
 | Type de correspondance   | Sélectionné |
 |-------------------------|-------------|
-| Facturation             | ✅ |
-| Résultats médicaux      | ✅ |
-| Informations générales  | ✅ |
-| Autre                   | N/A |
+| Facturation             | ☑️ |
+| Résultats médicaux      | ☑️ |
+| Informations générales  | ☑️ |
+| Autre                   | ⬜ |
 
 ---
 
@@ -56,19 +56,19 @@ date_reception: 2025-08-03
 
 | Mode d’envoi possible    | Sélectionné |
 |-------------------------|-------------|
-| Par mail                | ✅ |
-| Par téléphone           | ❌ |
-| Par courrier papier     | ✅ |
-| Remis directement au cabinet | ❌ |
+| Par mail                | ☑️ |
+| Par téléphone           | ⬜ |
+| Par courrier papier     | ☑️ |
+| Remis directement au cabinet | ⬜ |
 | Remarque                | Ça dépend selon la demande du patient |
 
 > Si par mail, adresse utilisée :
 
 | Adresse utilisée                | Sélectionné |
 |---------------------------------|-------------|
-| info@cabinet-dentaire-pestalozzi.ch | ❌ |
-| Adresse Bluewin                 | ✅ |
-| Remarque                        | N/A |
+| info@cabinet-dentaire-pestalozzi.ch | ⬜ |
+| Adresse Bluewin                 | ☑️ |
+| Remarque                        | ⬜ |
 
 ---
 
@@ -78,19 +78,19 @@ date_reception: 2025-08-03
 
 | Mode d’envoi possible    | Sélectionné |
 |-------------------------|-------------|
-| Par mail                | ✅ |
-| Par téléphone           | ✅ |
-| Par courrier papier     | ❌ |
-| Remis directement au cabinet | ✅ |
-| Remarque                | N/A |
+| Par mail                | ☑️ |
+| Par téléphone           | ☑️ |
+| Par courrier papier     | ⬜ |
+| Remis directement au cabinet | ☑️ |
+| Remarque                | ⬜ |
 
 > Si par mail, adresse utilisée :
 
 | Adresse utilisée                | Sélectionné |
 |---------------------------------|-------------|
-| info@cabinet-dentaire-pestalozzi.ch | ❌ |
-| Adresse Bluewin                 | ✅ |
-| Remarque                        | N/A |
+| info@cabinet-dentaire-pestalozzi.ch | ⬜ |
+| Adresse Bluewin                 | ☑️ |
+| Remarque                        | ⬜ |
 
 ---
 
@@ -101,27 +101,27 @@ date_reception: 2025-08-03
 
 | Option              | Sélectionné |
 |---------------------|-------------|
-| Oui, toutes         | ✅ |
-| Oui, la quasi-totalité | ❌ |
-| Environ la moitié   | ❌ |
-| Précision           | N/A |
+| Oui, toutes         | ☑️ |
+| Oui, la quasi-totalité | ⬜ |
+| Environ la moitié   | ⬜ |
+| Précision           | ⬜ |
 
 > Qui envoie les factures ?
 
 | Option                              | Sélectionné |
 |--------------------------------------|-------------|
-| Melissa, toutes les factures         | ❌ |
-| Melissa, une partie seulement        | ✅ |
+| Melissa, toutes les factures         | ⚪ |
+| Melissa, une partie seulement        | 🔘 |
 | Autre personne                      | En collaboration avec la CMD |
 
 > Mode d'envoi des factures :
 
 | Mode d’envoi           | Sélectionné |
 |------------------------|-------------|
-| Papier uniquement      | ❌ |
-| Mail uniquement        | ❌ |
-| Mélange papier + mail  | ✅ |
-| Remarque               | N/A |
+| Papier uniquement      | ⚪ |
+| Mail uniquement        | ⚪ |
+| Mélange papier + mail  | 🔘 |
+| Remarque               | ⚪ |
 
 ---
 
@@ -132,10 +132,10 @@ date_reception: 2025-08-03
 
 | Type de document       | Papier/classeur | Informatique (boîte mail) | Informatique (dossier ordi) | Autre |
 | ---------------------- | --------------- | ------------------------- | --------------------------- | ----- |
-| Loyer & charges        | ✅               | ✅                         | ❌                           | ❌     |
-| Assurances             | ✅               | ✅                         | ❌                           | ❌     |
-| Contrats fournisseurs  | ✅               | ✅                         | ❌                           | ❌     |
-| Facturation patientèle | ❌               | ✅                         | ❌                           | ❌     |
-| Comptabilité générale  | ✅               | ✅                         | ❌                           | ❌     |
-| Courrier administratif | ✅               | ✅                         | ❌                           | ❌     |
-| Autres documents       | ✅               | ✅                         | ❌                           | ❌     |
+| Loyer & charges        | ☑️               | ☑️                         | ❌                           | ❌     |
+| Assurances             | ☑️               | ☑️                         | ❌                           | ❌     |
+| Contrats fournisseurs  | ☑️               | ☑️                         | ❌                           | ❌     |
+| Facturation patientèle | ❌               | ☑️                         | ❌                           | ❌     |
+| Comptabilité générale  | ☑️               | ☑️                         | ❌                           | ❌     |
+| Courrier administratif | ☑️               | ☑️                         | ❌                           | ❌     |
+| Autres documents       | ☑️               | ☑️                         | ❌                           | ❌     |

@@ -13,26 +13,26 @@ date_reception: 2025-07-31
 
 | Option                                 | Sélectionné |
 |----------------------------------------|-------------|
-| Oui, connu de Mélissa uniquement       | ❌ |
-| Oui, partagé avec certaines personnes  | ✅ |
-| Non                                    | ❌ |
+| Oui, connu de Mélissa uniquement       | ⚪ |
+| Oui, partagé avec certaines personnes  | 🔘 |
+| Non                                    | ⚪ |
 
 > Est-ce que l’ordinateur a un verrouillage automatique après inactivité ?
 
 | Option   | Sélectionné |
 |----------|-------------|
-| Oui, toujours | ❌ |
-| Parfois      | ❌ |
-| Non          | ✅ |
+| Oui, toujours | ⚪ |
+| Parfois      | ⚪ |
+| Non          | 🔘 |
 
 > Qui peut accéder physiquement à cet ordinateur ?
 
 | Option                          | Sélectionné |
 |----------------------------------|-------------|
-| Collaborateurs Pestalozzi        | ✅ |
-| Collaborateurs RDL4              | ✅ |
-| Visiteurs / techniciens          | ✅ |
-| Autre                            | ❌ |
+| Collaborateurs Pestalozzi        | ☑️ |
+| Collaborateurs RDL4              | 🔘 |
+| Visiteurs / techniciens          | 🔘 |
+| Autre                            | ⚪ |
 
 > Précisions sur l’accès physique (noms, rôles, situations)
 
@@ -46,9 +46,9 @@ date_reception: 2025-07-31
 
 | Option                                        | Sélectionné |
 |-----------------------------------------------|-------------|
-| Session personnelle de Mélissa uniquement     | ❌ |
-| Session commune                               | ❌ |
-| Session personnelle + session(s) partagée(s)  | ✅ |
+| Session personnelle de Mélissa uniquement     | ⚪ |
+| Session commune                               | ⚪ |
+| Session personnelle + session(s) partagée(s)  | 🔘 |
 
 > Qui connaît le mot de passe de la session principale ?
 
@@ -62,17 +62,17 @@ date_reception: 2025-07-31
 
 | Option         | Sélectionné |
 |----------------|-------------|
-| Compte personnel | ✅ |
-| Compte partagé   | ❌ |
-| Autre            | ❌ |
+| Compte personnel | 🔘 |
+| Compte partagé   | ⚪ |
+| Autre            | ⚪ |
 
 > Existe-t-il une session « administrateur » pour la partie finance et comptabilité ?
 
 | Option     | Sélectionné |
 |------------|-------------|
-| Oui        | ✅ |
-| Non        | ❌ |
-| Ne sais pas| ❌ |
+| Oui        | 🔘 |
+| Non        | ⚪ |
+| Ne sais pas| ⚪ |
 
 > Qui a accès à la session « administrateur » (le cas échéant) ?
 
@@ -86,9 +86,9 @@ date_reception: 2025-07-31
 
 | Option     | Sélectionné |
 |------------|-------------|
-| Oui        | ✅ |
-| Non        | ❌ |
-| Ne sais pas| ❌ |
+| Oui        | 🔘 |
+| Non        | ⚪ |
+| Ne sais pas| ⚪ |
 
 > Si oui / incertain, préciser les noms
 
@@ -102,14 +102,14 @@ date_reception: 2025-07-31
 
 | Logiciel                  | Sélectionné |
 |---------------------------|-------------|
-| Outlook                   | ✅ |
-| Suite bureautique         | ✅ |
-| Navigateur                | ✅ |
-| Autre                     | ❌ |
+| Outlook                   | ☑️ |
+| Suite bureautique         | ☑️ |
+| Navigateur                | ☑️ |
+| Autre                     | ⬜ |
 
 > Précisions sur les autres logiciels (nom + usage)
 
-- N/A
+- ⬜
 
 ---
 
@@ -119,9 +119,9 @@ date_reception: 2025-07-31
 
 | Adresse mail                                | Sélectionné |
 |---------------------------------------------|-------------|
-| info@cabinet-dentaire-pestalozzi.ch         | ✅ |
-| Bluewin de Mélissa                          | ✅ |
-| Autre                                       | ❌ |
+| info@cabinet-dentaire-pestalozzi.ch         | ☑️ |
+| Bluewin de Mélissa                          | ☑️ |
+| Autre                                       | ⬜ |
 
 > Adresse Bluewin de Mélissa
 
@@ -131,19 +131,19 @@ date_reception: 2025-07-31
 
 | Méthode            | Sélectionné |
 |--------------------|-------------|
-| Outlook sur ordinateur | ✅ |
-| Webmail                | ✅ |
-| Application mobile     | ✅ |
-| Autre                  | ❌ |
+| Outlook sur ordinateur | ☑️ |
+| Webmail                | ☑️ |
+| Application mobile     | ☑️ |
+| Autre                  | ⬜ |
 
 > Des personnes autres que Mélissa peuvent-elles lire ces mails depuis cet ordinateur ?
 
 | Option     | Sélectionné |
 |------------|-------------|
-| Oui        | ❌ |
-| Non        | ❌ |
-| Ne sais pas| ❌ |
-| **(non renseigné)** | ✅ |
+| Oui        | ⬜ |
+| Non        | ⬜ |
+| Ne sais pas| ⬜ |
+| **(non renseigné)** | ☑️ |
 
 > Si oui / incertain, préciser qui et dans quelles conditions
 
@@ -153,9 +153,9 @@ date_reception: 2025-07-31
 
 | Option     | Sélectionné |
 |------------|-------------|
-| Oui        | ✅ |
-| Non        | ❌ |
-| Ne sais pas| ❌ |
+| Oui        | 🔘 |
+| Non        | ⚪ |
+| Ne sais pas| ⚪ |
 
 > Préciser (types/dossiers sensibles)
 
@@ -169,12 +169,12 @@ date_reception: 2025-07-31
 
 | Emplacement            | Sélectionné |
 |------------------------|-------------|
-| Disque local           | ❌ |
-| Serveur du cabinet     | ✅ |
-| Disque dur externe     | ❌ |
-| Clé USB                | ❌ |
-| Cloud                  | ❌ |
-| Autre                  | ❌ |
+| Disque local           | ⬜ |
+| Serveur du cabinet     | ☑️ |
+| Disque dur externe     | ⬜ |
+| Clé USB                | ⬜ |
+| Cloud                  | ⬜ |
+| Autre                  | ⬜ |
 
 > Précisions (cloud / chemins de dossiers)
 
@@ -205,8 +205,8 @@ date_reception: 2025-07-31
 | Marise (hygiéniste)        | — Aucun / inconnu — |
 | Sarah (hygiéniste)         | — Aucun / inconnu — |
 | Sylviane (administration)  | — Aucun / inconnu — |
-| Autre personne RDL4        | N/A                 |
-| Précisions RDL4            | N/A                 |
+| Autre personne RDL4        | ⚪                 |
+| Précisions RDL4            | ⚪                 |
 
 ---
 

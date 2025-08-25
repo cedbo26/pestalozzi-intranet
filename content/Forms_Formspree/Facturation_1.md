@@ -7,9 +7,9 @@ date_reception: 2025-07-31 00:15
 
 | Option | Choisi |
 |--------|--------|
-| Directement depuis Dentagest (export XML) | ✅ |
-| Impression et envoi papier | ❌ |
-| Autre méthode | N/A |
+| Directement depuis Dentagest (export XML) | ☑️ |
+| Impression et envoi papier | ⬜ |
+| Autre méthode | ⬜ |
 
 ---
 
@@ -17,10 +17,10 @@ date_reception: 2025-07-31 00:15
 
 | Option | Choisi |
 |--------|--------|
-| Chaque jour | ❌ |
-| Chaque semaine | ❌ |
-| Chaque 2 semaines | ❌ |
-| Chaque mois | ✅ |
+| Chaque jour | ⚪ |
+| Chaque semaine | ⚪ |
+| Chaque 2 semaines | ⚪ |
+| Chaque mois | 🔘 |
 | Autre | 1x par mois |
 
 ---
@@ -32,8 +32,8 @@ date_reception: 2025-07-31 00:15
 
 | Option | Choisi |
 |--------|--------|
-| Depuis Dentagest | ✅ |
-| Par courrier papier | ✅ |
+| Depuis Dentagest | ☑️ |
+| Par courrier papier | ☑️ |
 | Autre | Les deux |
 | Envoi fait par toi ? | Oui |
 
@@ -41,8 +41,8 @@ date_reception: 2025-07-31 00:15
 
 | Option | Choisi |
 |--------|--------|
-| Depuis Dentagest | ✅ |
-| Par courrier papier | ❌ |
+| Depuis Dentagest | ☑️ |
+| Par courrier papier | ⬜ |
 | Autre | CMD envoie par eux |
 | Envoi fait par toi ? | Non |
 
@@ -50,18 +50,18 @@ date_reception: 2025-07-31 00:15
 
 | Option | Choisi |
 |--------|--------|
-| Depuis Dentagest | ❌ |
-| Par courrier papier | ✅ |
-| Autre | N/A |
+| Depuis Dentagest | ⬜ |
+| Par courrier papier | ☑️ |
+| Autre | ⬜ |
 | Envoi fait par toi ? | Oui |
 
 **Aide sociale / Service social**
 
 | Option | Choisi |
 |--------|--------|
-| Depuis Dentagest | ❌ |
-| Par courrier papier | ✅ |
-| Autre | N/A |
+| Depuis Dentagest | ⬜ |
+| Par courrier papier | ☑️ |
+| Autre | ⬜ |
 | Envoi fait par toi ? | Oui |
 
 ---
@@ -70,10 +70,10 @@ date_reception: 2025-07-31 00:15
 
 | Option | Choisi |
 |--------|--------|
-| Dentagest (module suivi intégré) | ✅ |
-| Relevé fourni par la Caisse des Médecins | ✅ |
-| Contrôle manuel | ✅ |
-| Autre | N/A |
+| Dentagest (module suivi intégré) | ☑️ |
+| Relevé fourni par la Caisse des Médecins | ☑️ |
+| Contrôle manuel | ☑️ |
+| Autre | ⬜ |
 
 ---
 
@@ -81,9 +81,9 @@ date_reception: 2025-07-31 00:15
 
 | Option | Choisi |
 |--------|--------|
-| Relance automatique par Dentagest | ❌ |
-| Relance manuelle par moi-même | ❌ |
-| La Caisse des Médecins gère le recouvrement | ✅ |
+| Relance automatique par Dentagest | ⬜ |
+| Relance manuelle par moi-même | ⬜ |
+| La Caisse des Médecins gère le recouvrement | ☑️ |
 | Autre | Ça dépend si la créance a été rachetée ou non |
 
 ---

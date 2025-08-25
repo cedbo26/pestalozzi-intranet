@@ -25,7 +25,7 @@ statut: "à clarifier"
   - Reçoit notamment les messages du **formulaire de contact** du site  
   - Hébergé sur Infomaniak
 
-- **[Bluewin — à préciser]**  
+- **[@bluewin]**  
   - Utilisation exacte à déterminer (facturation, patientèle, autre ?)  
   - Hébergé chez Swisscom (Bluewin)
 

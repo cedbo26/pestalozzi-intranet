@@ -10,7 +10,7 @@ tags:
   - pestalozzi
 ---
 
-# 👥 Organigramme – Cabinet dentaire Pestalozzi
+# 👥 Organigramme 
 
 ## 📎 Notes liées
 - Hub : [[🧭 Synthèse IT – Cabinet Pestalozzi]]
