@@ -2,60 +2,121 @@
 title: "🏠 Accueil – Intranet Pestalozzi"
 description: "La page d’accueil pour retrouver toutes les infos utiles (version simplifiée pour Melissa)."
 ---
-# 👋 Bienvenue Mélissa
-
-Ceci est ton **panneau de bord**. 
-
- Pas besoin d’être technique → clique simplement sur les rubriques ci-dessous et navigue à ta guise
- 
----
-
-## 📊 Synthèses IT
-📌 Ces notes résument les points essentiels (accès, organisation, e-mails).  
-
-- [[🧭 Synthèse IT]]  
-  → *la vue d’ensemble*  
-
-- [[🖥️ Fonctionnement IT – Mélissa]]  
-  → *ton ordinateur et tes accès*  
-
-- [[🗄️ Organisation des fichiers & archivage]]  
-  → *où sont stockés les documents*  
-
-- [[📁 Correspondance et flux de fichiers]]  
-  → *e-mails et communication*  
+# 🦷 QG Numérique – Pestalozzi
 
 ---
 
-## 📑 Tes formulaires (réponses enregistrées)
-> ℹ️ Ces formulaires sont ceux que **tu as remplis**.  
-> Tu peux les rouvrir pour revoir tes réponses si besoin.  
+## 📌 Synthèse rapide
 
-- 🔑 [[Acces_IT_CDP]]  
-  → *accès à ton ordinateur*  
+> [!info] Constat
+> - Sessions partagées ❌
+> - Pas de verrouillage auto ❌
+> - Accès physique large ⚠️
+> - ✅ Session admin réservée à Mélissa
 
-- 📂  [[Forms/Organisation_Fichiers_CDP|Organisation_Fichiers_CDP]]
-  → *organisation des fichiers*  
+> [!danger] Achtung
+> - Accord contractuel flou  
+> - Double rattachement de Dr Allo  
+> - Communication parfois indirecte  
+> - Chloé = source potentielle de conflit  
 
-- ✉️ [[Correspondance_CDP]] 
-  → *correspondance et mails*  
+> [!success] Opportunités
+> - Mettre en avant session admin comme gouvernance numérique  
+> - Formaliser accords → clarté stratégique  
+> - Potentiel de séparation clair pro/perso  
 
-- 💵 [[Facturation_1]]  
-  → *facturation et paiements*  
+
+### 📰 Feed de suivi
+
+> [!note] Dentagest
+> - Outil central de gestion patientèle  
+> - 🔑 Accès restreint : Melissa seule admin  
+> - ❌ Pas encore de processus de sauvegarde clair  
+> - 📌 Opportunité : relier au futur plan numérique
+
+---
+
+> [!warning] Points sensibles
+> - Risque perte données (absence sauvegarde externe)  
+> - Support technique dépendant fournisseur  
 
 ---
 
-## 🏢 Organisation
-- [[Organigramme]]  
-  → *qui fait quoi au cabinet*  
+> [!tip] Pistes
+> - Mettre en place sauvegarde automatique  
+> - Documenter procédure accès/sécurité
+> - Amorcer [[nouveau serveur]] 
+> - Stabiliser les boîtes mail 
 
-- [[Rapport intermédiaire – État des lieux organisationnel]]
-  → *le point global sur l’organisation*  
+---
+
+> [!note] Dentagest  
+> - Logiciel central patientèle  
+> - 🔑 Admin unique = Melissa  
+> - ❌ Pas de sauvegarde externe claire  
 
 ---
 
-## 🌐 Infrastructure
-- 🌐 [[Infrastructure IT]]  
-  → *la partie technique (tu peux ignorer si ça te semble trop compliqué 😉)*  
+> [!warning] Points sensibles  
+> - Accord oral non formalisé → zone de flou stratégique  
+> - Double rattachement de Dr Allo → risque tensions internes  
 
 ---
+
+> [!tip] Opportunités  
+> - Formaliser accords (Mélissa ↔ Duc)  
+> - Gouvernance numérique via session admin  
+> - Séparation claire pro/perso  
+
+---
+
+> [!success] Réussites récentes  
+> - ✅ Session admin réservée à Melissa  
+> - ✅ Partage des charges techniques sans litige  
+> - ✅ Digitalisation entre de bonnes mains yeah
+
+---
+
+> [!question] Suivi ouvert  
+> - Comment sécuriser Dentagest ?  
+> - Quel modèle de reprise officialiser d’ici fin 2025 ?  
+
+---
+
+> [!danger] Risques critiques  
+> - Chloé identifiée comme source potentielle de conflit  
+> - Communication stratégique parfois indirecte (via équipe)  
+
+---
+
+> [!failure] Manques actuels  
+> - ❌ Pas de procédure de sauvegarde patientèle  
+> - ❌ Pas de protocole clair d’archivage numérique  
+
+---
+
+> [!bug] Problèmes techniques  
+> - Imprimante : carnet d’adresses interne pas stabilisé  
+> - Accès réseau parfois instable  
+
+---
+
+> [!example] Cas concret  
+> - Intervention stérilisateur partagée 50/50  
+> - Bon fonctionnement du partage des charges communes  
+
+---
+
+> [!quote] Citation du jour  
+> *“Un cabinet, c’est d’abord une équipe qui doit respirer ensemble.”*  
+> Lol désolé, c'est une citation pourrie de l'IA ^^
+
+---
+
+## ✅ Suivi immédiat
+> [!todo]  
+> - 📑 Clarifier la transition  
+> - 📅 Préparer prochaine synthèse numérique
+> - [[Cédric]] suivre #dentagest 
+
+
