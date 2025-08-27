@@ -1,5 +1,5 @@
 ---
-title: 📘 Guide de syntaxe Obsidian
+title: Syntaxe Obsidian
 tags:
   - obsidian
   - markdown

@@ -1,5 +1,5 @@
 ---
-title: 🌐 Déploiement Quartz (avec mot de passe)
+title: Déploiement Quartz (avec mot de passe)
 type: guide-tech
 tags:
   - github-actions
