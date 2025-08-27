@@ -48,10 +48,10 @@ jobs:
           fi
           echo "✅ STATICRYPT_PASSWORD is set (hidden)."
 
-      - name: Install StatiCrypt (official package)
-        run: npm i -g staticrypt
+      - name: Install StatiCrypt
+        run: npm i -g staticrypt@3.5.4
 
-      - name: Encrypt ALL HTML with StatiCrypt (in-place)
+      - name: Encrypt ALL HTML with StatiCrypt (dir → mv)
         env:
           STATICRYPT_PASSWORD: ${{ secrets.STATICRYPT_PASSWORD }}
         shell: bash
@@ -61,19 +61,21 @@ jobs:
           mapfile -d '' FILES < <(find public -type f -name "*.html" -print0)
           echo "📄 Found ${#FILES[@]} HTML file(s)."
           for f in "${FILES[@]}"; do
-            echo "🔐 Encrypting $f"
-            # Chiffre en remplaçant le fichier, sans options “titre/instructions” pour éviter les confusions
-            staticrypt "$f" -o "$f" -p "$STATICRYPT_PASSWORD" --short
+            tmpdir="$(mktemp -d)"
+            # Génère dans un dossier, puis remplace le fichier (évite -o, cassé en 3.5.4)
+            staticrypt "$f" -d "$tmpdir" --short --salt "$(openssl rand -hex 16)" -p "$STATICRYPT_PASSWORD"
+            mv "$tmpdir/$(basename "$f")" "$f"
+            rmdir "$tmpdir"
           done
 
-      - name: Verify encryption (look for StatiCrypt markers)
+      - name: Verify encryption (password prompt present)
         run: |
-          if grep -qiE 'staticrypt|data-staticrypt|StatiCrypt' public/index.html; then
+          if grep -qiE '<input[^>]*type="password"' public/index.html; then
             echo "✅ index.html appears encrypted."
           else
             echo "❌ index.html does not look encrypted"
-            echo "---- First 60 lines ----"
-            head -n 60 public/index.html || true
+            echo "---- First 80 lines ----"
+            head -n 80 public/index.html || true
             exit 1
           fi
 
