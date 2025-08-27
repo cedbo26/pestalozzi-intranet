@@ -49,7 +49,7 @@ jobs:
           echo "✅ STATICRYPT_PASSWORD is set (hidden)."
 
       - name: Install StatiCrypt
-        run: npm i -g staticrypt@3.5.4
+        run: npm i -g staticrypt@3.3.1
 
       - name: Encrypt ALL HTML with StatiCrypt (dir → mv)
         env:
