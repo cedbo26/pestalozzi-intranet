@@ -21,10 +21,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Node
+      # Build Quartz avec Node 22 (exigé par Quartz 4.5.x)
+      - name: Setup Node (for Quartz)
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: "22"
 
       - name: Update npm (required by Quartz)
         run: npm i -g npm@latest
@@ -43,13 +44,18 @@ jobs:
           STATICRYPT_PASSWORD: ${{ secrets.STATICRYPT_PASSWORD }}
         run: |
           if [ -z "${STATICRYPT_PASSWORD:-}" ]; then
-            echo "::error::STATICRYPT_PASSWORD secret is missing"
-            exit 1
+            echo "::error::STATICRYPT_PASSWORD secret is missing"; exit 1
           fi
           echo "✅ STATICRYPT_PASSWORD is set (hidden)."
 
+      # Bascule en Node 20 uniquement pour le chiffrement (compat Staticrypt)
+      - name: Switch Node (for encryption)
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
       - name: Install StatiCrypt
-        run: npm i -g staticrypt@3.3.1
+        run: npm i -g staticrypt@3.5.4
 
       - name: Encrypt ALL HTML with StatiCrypt (dir → mv)
         env:
@@ -62,7 +68,6 @@ jobs:
           echo "📄 Found ${#FILES[@]} HTML file(s)."
           for f in "${FILES[@]}"; do
             tmpdir="$(mktemp -d)"
-            # Génère dans un dossier, puis remplace le fichier (évite -o, cassé en 3.5.4)
             staticrypt "$f" -d "$tmpdir" --short --salt "$(openssl rand -hex 16)" -p "$STATICRYPT_PASSWORD"
             mv "$tmpdir/$(basename "$f")" "$f"
             rmdir "$tmpdir"
