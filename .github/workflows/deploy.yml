@@ -48,7 +48,7 @@ jobs:
           fi
           echo "✅ STATICRYPT_PASSWORD is set (hidden)."
 
-      # Bascule en Node 20 uniquement pour le chiffrement (compat Staticrypt)
+      # Bascule en Node 20 pour le chiffrement (compat StatiCrypt)
       - name: Switch Node (for encryption)
         uses: actions/setup-node@v4
         with:
@@ -73,13 +73,12 @@ jobs:
             rmdir "$tmpdir"
           done
 
-      - name: Verify encryption (password prompt present)
+      - name: Verify encryption (Staticrypt markers)
         run: |
-          if grep -qiE '<input[^>]*type="password"' public/index.html; then
-            echo "✅ index.html appears encrypted."
+          if grep -qiE 'class="staticrypt-html"|staticrypt-decrypt-button|class="staticrypt-form"' public/index.html; then
+            echo "✅ index.html is encrypted (Staticrypt template found)."
           else
             echo "❌ index.html does not look encrypted"
-            echo "---- First 80 lines ----"
             head -n 80 public/index.html || true
             exit 1
           fi
