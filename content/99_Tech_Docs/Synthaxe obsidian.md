@@ -135,10 +135,13 @@ created: 2025-08-27
 ---
 #### Diagrammes Mermaid
 >Créer des schémas dans la note
+
 ```mermaid
 flowchart TD
     A[Vault] --> B[GitHub]
+    B --> D[La réponse D]
     B --> C[Cloudflare]
+    D --> A
 ```
 
 
