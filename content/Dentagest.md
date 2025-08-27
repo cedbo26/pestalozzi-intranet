@@ -1,6 +1,6 @@
 ---
-title: "Dentagest – Architecture & Évolutions"
-type: "IT_App"
+title: Dentagest
+type: IT_App
 projet: Pestalozzi
 date: 2025-08-31
 consultant: Cedric
@@ -67,6 +67,69 @@ backlinks:
 - Conditions/coûts hébergement **Cloud Dentagest**  
 - Conditions/coûts **nouveau serveur physique**  
 - Recommandations officielles remplacement **WSS2012R2 (EoL)**  
+
+Mail brut
+>[!Quote]
+> Bonjour M. Gerber,
+> 
+> Dans le cadre d’une mise à niveau de l’infrastructure informatique du cabinet dentaire de Mme Behar, je souhaite comprendre précisément comment Dentagest est basé et intégré dans l’environnement informatique du cabinet.
+> 
+> À ce stade, j’ai identifié que Dentagest est installé sur un **serveur local** sous **Windows Storage Server 2012 R2**, protégé par un onduleur **APC Back‑UPS CS 500**. Ce serveur semble centraliser la base de données Dentagest et répondre aux requêtes des postes clients du cabinet.  
+> Mme Behar m’a également indiqué avoir reçu pour consigne de _laisser cette machine allumée en permanence_.
+> 
+> Pour avoir une vision claire et pouvoir structurer mes actions sur les autres services IT, pourriez-vous m’indiquer :
+> 
+> 1. **Architecture actuelle**
+>     
+>     - Rôle exact du serveur dans le fonctionnement de Dentagest (base de données, services annexes)
+>         
+>     - Mode de connexion des postes clients
+>         
+>     - Si d’autres services que Dentagest y sont hébergés
+>         
+> 2. **Sauvegardes**
+>     
+>     - Méthode, fréquence et emplacement des sauvegardes
+>         
+>     - Procédure standard de restauration
+>         
+>     - Possibilité et compatibilité pour mise en place d’une sauvegarde cloud
+>         
+> 3. **Fonctionnement continu**
+>     
+>     - Raison technique exacte de la consigne “serveur toujours allumé”
+>         
+>     - Accès à distance par votre support technique ?
+>         
+>     - Traitements ou synchronisations nocturnes spécifiques ?
+>         
+> 4. **Options d’évolution**
+>     
+>     - Conditions et coûts pour un hébergement cloud Dentagest
+>         
+>     - Conditions et coûts pour migrer vers un nouveau serveur physique au cabinet
+>         
+>     - Recommandations officielles Dentagest pour le remplacement d’un serveur Windows Storage Server 2012 R2 (fin de support Microsoft depuis octobre 2023)
+>         
+> 
+> Ces précisions me permettront d’intégrer Dentagest dans mon analyse globale de l’infrastructure et d’anticiper les évolutions possibles.
+> 
+> Je reste bien sûr disponible pour un échange téléphonique si cela vous semble plus efficace.
+> 
+>   
+> 
+> Bien cordialement, 
+> 
+>    
+> 
+>   
+> **Cédric Bodoira**  
+> Consulting  
+> [c.bodoira@fiduworld.ch](mailto:c.bodoira@fiduworld.ch)  
+>   
+> Mobile +41 79 813 67 00
+
+
 
 ---
 
