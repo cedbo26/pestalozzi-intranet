@@ -1,8 +1,14 @@
 ---
-title: ✅ TODO – Cédric (setup email & sécurité)
+title: Cédric to-do
 auteur: Cédric
 categorie: IT-support
-tags: [infomaniak, sécurité, pestalozzi, melissa, setup, tocheck]
+tags:
+  - infomaniak
+  - sécurité
+  - pestalozzi
+  - melissa
+  - setup
+  - tocheck
 date: 2025-08-27
 priorité: urgente
 ---
@@ -21,7 +27,15 @@ priorité: urgente
 - [ ] Créer au moins **2 gabarits de réponse Mail.app** :
   - Résultat médical simple
   - Réponse administrative / facture
+- [ ] Configurer Applocker sur le Mac de Mélissa
 - [ ] (Optionnel) Ajouter l’adresse sur l’appli mobile si souhaité par Melissa
+- [ ] Disclaimer
+
+>[!quote]
+IMPORTANT : Les contenus de ce message et ses pièces jointes sont confidentiels.  
+Ils sont destinés uniquement à leurs destinataires.  
+Si vous avez reçu ce message par erreur, veuillez le signaler immédiatement à votre administrateur ou directement à son expéditeur.  
+Ne faites pas de copie du message.
 
 ---
 

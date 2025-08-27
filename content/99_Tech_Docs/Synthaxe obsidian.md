@@ -120,7 +120,6 @@ print("Hello Obsidian")
 >[!quote] citation
 
 ---
----
 #### Métadonnées
 > il faut toujours encadrer par une ligne au dessus et au dessous afin de 
 
