@@ -68,7 +68,7 @@ backlinks:
 - Conditions/coûts **nouveau serveur physique**  
 - Recommandations officielles remplacement **WSS2012R2 (EoL)**  
 
-Mail brut
+#### Mail brut
 >[!Quote]
 > Bonjour M. Gerber,
 > 

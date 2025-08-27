@@ -4,6 +4,16 @@ description: "La page d’accueil pour retrouver toutes les infos utiles (versio
 ---
 # 🦷 QG Numérique – Pestalozzi
 
+> [!todo] 🔔 **Rappel important – To-do listes personnelles**
+> - 🧾 [[Mélissa to-do]]  
+>   → Accès, sécurité, organisation mail pro
+> - ✅ [[Cédric to-do]]  
+>   → Configuration technique, sécurisation, accompagnement
+>
+> 🔁 Merci de consulter ces deux notes avant toute action sur l’email ou la sécurité.  
+> Elles servent de **références courantes** jusqu’à la stabilisation du système.
+
+
 ---
 
 ## 📌 Synthèse rapide
@@ -117,6 +127,6 @@ description: "La page d’accueil pour retrouver toutes les infos utiles (versio
 > [!todo]  
 > - 📑 Clarifier la transition  
 > - 📅 Préparer prochaine synthèse numérique
-> - [[Cédric]] suivre #dentagest 
+> - [[Cédric to-do]] suivre #dentagest 
 
 
