@@ -11,7 +11,6 @@ tags:
   - formulaire
 date: 2025-08-28
 ---
-
 # 🦷 Arrivée d’un nouveau patient
 
 ## 📌 Étapes actuelles
