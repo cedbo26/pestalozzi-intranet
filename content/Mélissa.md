@@ -1,5 +1,5 @@
 ---
-title: Mélissa to-do
+title: to-do Mélissa
 auteur: Cédric
 categorie: organisation
 tags:
@@ -51,7 +51,7 @@ priorité: haute
 
 ## 🛡️ Sécurité & protection
 
-- [ ] Souhaite activer la **double authentification (MFA)** pour Infomaniak ([[Cédric to-do]] recommande!)
+- [ ] Souhaite activer la **double authentification (MFA)** pour Infomaniak ([[Cédric]] recommande!)
 - [ ] Vérifier si elle veut utiliser **AppLocker sur Mac** pour protéger l’ouverture de Mail
 - [ ] Préparer un **plan simple** pour protéger ses documents confidentiels à moyen terme
 

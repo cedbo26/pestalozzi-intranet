@@ -1,5 +1,5 @@
 ---
-title: Cédric to-do
+title: to-do Cédric
 auteur: Cédric
 categorie: IT-support
 tags:
@@ -47,6 +47,56 @@ Ne faites pas de copie du message.
 - [ ] Ajouter un **alias ou nouvelle adresse email** si besoin :
   - `melissa@cabinet-dentaire-pestalozzi.ch`
   - ou `admin@...`, `compta@...`, selon ses préférences
+
+> [!info] 🔐 Sécurité email – SPF, DKIM, DMARC (Infomaniak)
+> 
+> **Pourquoi ?**  
+> Empêcher l’usurpation d’identité (`info@...`), améliorer la délivrabilité des mails, respecter la LPD/RGPD.
+> 
+> ---
+> 
+> ✅ **SPF**  
+> Autorise Infomaniak à envoyer des mails pour le domaine.  
+> → Entrée DNS de type TXT :  
+> ```
+> Nom : @  
+> Type : TXT  
+> Valeur : v=spf1 include:_spf.infomaniak.ch ~all
+> ```
+> 
+> ---
+> 
+> ✅ **DKIM**  
+> Signe les mails pour garantir qu’ils ne sont pas falsifiés.  
+> → Active automatiquement via Infomaniak :  
+> ```
+> Nom : default._domainkey  
+> Type : TXT  
+> Valeur : (clé publique fournie automatiquement)
+> ```
+> Activer si besoin : Manager > Emails > Domaine > Authentification DKIM
+> 
+> ---
+> 
+> ✅ **DMARC**  
+> Décrit quoi faire si SPF ou DKIM échoue.  
+> → Entrée DNS de type TXT :  
+> ```
+> Nom : _dmarc  
+> Type : TXT  
+> Valeur minimale :  
+> v=DMARC1; p=none; rua=mailto:dmarc@cabinet-dentaire-pestalozzi.ch
+> ```
+> Autres options possibles :  
+> - `p=quarantine` → met en spam  
+> - `p=reject` → rejette directement
+> 
+> ---
+> 
+> 🛠️ **Où configurer tout ça ?**  
+> → https://manager.infomaniak.com → Domaines → DNS → Ajouter une entrée TXT
+
+
 
 ---
 

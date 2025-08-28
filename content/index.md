@@ -5,14 +5,15 @@ description: "La page d’accueil pour retrouver toutes les infos utiles (versio
 # 🦷 QG Numérique – Pestalozzi
 
 > [!todo] 🔔 **Rappel important – To-do listes personnelles**
-> - 🧾 [[Mélissa to-do]]  
+> - 🧾 [[Mélissa]]  
 >   → Accès, sécurité, organisation mail pro
-> - ✅ [[Cédric to-do]]  
+> - ✅ [[Cédric]]  
 >   → Configuration technique, sécurisation, accompagnement
 >
 > 🔁 Merci de consulter ces deux notes avant toute action sur l’email ou la sécurité.  
 > Elles servent de **références courantes** jusqu’à la stabilisation du système.
 
+[[Cédric]] a créé la note [[Formulaire nouveau patient]] pour corriger le formulaire pdf et l'adapter à la LPD. 
 
 ---
 
@@ -127,6 +128,6 @@ description: "La page d’accueil pour retrouver toutes les infos utiles (versio
 > [!todo]  
 > - 📑 Clarifier la transition  
 > - 📅 Préparer prochaine synthèse numérique
-> - [[Cédric to-do]] suivre #dentagest 
+> - [[Cédric]] suivre #dentagest 
 
 
