@@ -55,7 +55,7 @@ backlinks:
 > [!tip]
 > | Horizon | ✅ Actions clés | 🎯 Objectif |
 > |---|---|---|
-> | **1–2 mois** | 1) **Standardiser les canaux** : résultats via **PDF chiffré** (+ mot de passe par SMS) ; factures via **adresse pro** du domaine, jamais Bluewin | Réduire le risque immédiat |
+> | **1–2 mois** | 1) **Standardiser les canaux** : résultats ~~via **PDF chiffré** (+ mot de passe par SMS)~~ ; factures via **adresse pro** du domaine, jamais Bluewin | Réduire le risque immédiat |
 > |  | 2) **Gabarits d’emails** (résultats, questions, facturation) + **réponses automatiques** info@ (accusé de réception) | Cohérence & gain de temps |
 > |  | 3) **Plan de classement commun** (libellés dossiers) & **règles d’archivage** (mail → dossier annuel ; papier → classeur dédié) | Traçabilité |
 > | **3–6 mois** | 4) **Rôles & SOP** avec CMD (qui envoie quoi, quand, comment ; suivi des impayés) | Clarté process facturation |
