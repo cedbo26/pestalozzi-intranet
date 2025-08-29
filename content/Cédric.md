@@ -20,7 +20,7 @@ priorité: urgente
 
 ## ⚙️ 1. Configuration Infomaniak (Mail macOS)
 
-- [ ] Vérifier le fonctionnement de l’adresse `info@cabinet-dentaire-pestalozzi.ch` (envoi + réception)
+- [x] Vérifier le fonctionnement de l’adresse `info@cabinet-dentaire-pestalozzi.ch` (envoi + réception)
 - [ ] Ajouter le compte dans **Mail.app** sur le **MacBook Pro**
 - [ ] Créer un **dossier “Bluewin reçus”**
 - [ ] Ajouter une **règle automatique** pour rediriger tous les mails depuis Bluewin vers ce dossier
