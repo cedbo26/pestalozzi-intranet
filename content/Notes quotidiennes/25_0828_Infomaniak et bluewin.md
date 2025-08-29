@@ -71,7 +71,3 @@ tags:
 > - Prochaine étape potentielle : activer DMARC pour compléter le dispositif.  
 
 
-
-
-
-![[Pasted image 20250828232742.png]]

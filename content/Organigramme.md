@@ -24,15 +24,15 @@ tags:
 
 # 🧑‍⚕️ Équipe RDL4 (Dr Duc)
 
-| Nom              | Rôle              | Taux activité | Statut       | Remarques |
-|------------------|------------------|---------------|--------------|-----------|
-| **Dr Richard Duc** | Dentiste, propriétaire | 40% | Indépendant | Lundi + vendredi |
-| **Dr Aldo Allo** | Dentiste          | 40%           | Employé RDL4 | Mercredi + vendredi |
-| **Chloé**        | Assistante        | 90%           | Employée     | Potentiel conflit |
-| **Valérie**      | Assistante        | 40%           | Employée     | 2 j/semaine |
-| **Marise**       | Hygiéniste        | ~60%          | Collaboratrice | — |
-| **Sarah**        | Hygiéniste        | 40–45%        | Collaboratrice | — |
-| **Sylviane**     | Administration    | —             | Employée     | — |
+| Nom                | Rôle                   | Taux activité | Statut         | Remarques           |
+| ------------------ | ---------------------- | ------------- | -------------- | ------------------- |
+| **Dr Richard Duc** | Dentiste, propriétaire | 40%           | Indépendant    | Lundi + vendredi    |
+| **Dr Aldo Allo**   | Dentiste               | 40%           | Employé RDL4   | Mercredi + vendredi |
+| **Chloé**          | Assistante             | 90%           | Employée       | Potentiel conflit   |
+| **Valérie**        | Assistante             | 40%           | Employée       | 2 j/semaine         |
+| **Marise**         | Hygiéniste             | ~60%          | Collaboratrice | —                   |
+| **Sarah**          | Hygiéniste             | 40–45%        | Collaboratrice | —                   |
+| **Sylviane**       | Administration         | —             | Employée       | —                   |
 
 ---
 
