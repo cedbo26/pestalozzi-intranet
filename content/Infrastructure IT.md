@@ -12,14 +12,6 @@ responsable: Melissa
 statut: à clarifier
 ---
 ---
-date: 2025-08-22
-heure: 16:18
-nom_du_vault: "DENTAL_PESTA"
-tags: [daily_note]
----
-
-
-
 ## 🌐 Hébergement Web & Domaine
 - **Prestataire** : Infomaniak
 - **Nom de domaine principal** : `cabinet-dentaire-pestalozzi.ch`
@@ -38,7 +30,7 @@ tags: [daily_note]
   - Hébergé sur Infomaniak
 
 - **[@bluewin]**  
-  - Utilisation exacte à déterminer (facturation, patientèle, autre ?)  
+  - Utilisation exacte à déterminer (facturation, patientèle, autre ?) [[25_0828_Infomaniak et bluewin]]
   - Hébergé chez Swisscom (Bluewin)
 
 ---

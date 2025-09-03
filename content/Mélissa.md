@@ -19,7 +19,7 @@ priorité: haute
 
 ## 🔑 Accès & mots de passe
 
-- [ ] Retrouver le **mot de passe Infomaniak** (accès webmail + console admin)
+- [x] Retrouver le **mot de passe Infomaniak** (accès webmail + console admin)
 - [ ] Avoir sous la main les **identifiants Bluewin** si besoin de réglages
 
 ---
@@ -34,16 +34,16 @@ priorité: haute
 
 ## 📬 Emails – organisation actuelle
 
-- [ ] Réfléchir à une date de fin pour l’usage de **Bluewin en envoi**
-- [ ] Vérifier que les mails importants sont bien **conservés ou transférés**
+- [x] Réfléchir à une date de fin pour l’usage de **Bluewin en envoi**
+- [x] Vérifier que les mails importants sont bien **conservés ou transférés**
 - [ ] (Optionnel) Faire un **tri rapide** des mails récents dans Bluewin
 
 ---
 
 ## 🗂️ Structure souhaitée (à discuter)
 
-- [ ] Garder **Bluewin pour lecture uniquement** ?
-- [ ] Ajouter une deuxième adresse mail ?  
+- [x] Garder **Bluewin pour lecture uniquement** ?
+- [x] Ajouter une deuxième adresse mail ?  
 	Exemples : `admin@`, `melissa@`, `compta@`
 - [ ] **Réponses automatiques** pour signaler la nouvelle adresse ?
 

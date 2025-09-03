@@ -41,10 +41,10 @@ Ne faites pas de copie du message.
 
 ## 🧾 2. Console Infomaniak
 
-- [ ] Accéder à https://manager.infomaniak.com
-- [ ] Vérifier le statut du domaine `cabinet-dentaire-pestalozzi.ch`
+- [x] Accéder à https://manager.infomaniak.com
+- [x] Vérifier le statut du domaine `cabinet-dentaire-pestalozzi.ch`
 - [ ] Activer la **double-authentification (MFA)** avec le téléphone de Melissa
-- [ ] Ajouter un **alias ou nouvelle adresse email** si besoin :
+- [x] Ajouter un **alias ou nouvelle adresse email** si besoin :
   - `melissa@cabinet-dentaire-pestalozzi.ch`
   - ou `admin@...`, `compta@...`, selon ses préférences
 
@@ -78,23 +78,23 @@ Ne faites pas de copie du message.
 > 
 > ---
 > 
-> ✅ **DMARC**  
-> Décrit quoi faire si SPF ou DKIM échoue.  
-> → Entrée DNS de type TXT :  
-> ```
-> Nom : _dmarc  
-> Type : TXT  
-> Valeur minimale :  
-> v=DMARC1; p=none; rua=mailto:dmarc@cabinet-dentaire-pestalozzi.ch
-> ```
-> Autres options possibles :  
-> - `p=quarantine` → met en spam  
-> - `p=reject` → rejette directement
+> ~~✅ **DMARC**~~  
+> ~~Décrit quoi faire si SPF ou DKIM échoue.~~  
+> ~~→ Entrée DNS de type TXT :~~  
+> ~~```~~
+> ~~Nom : _dmarc~~  
+> ~~Type : TXT~~  
+> ~~Valeur minimale :~~  
+> ~~v=DMARC1; p=none; rua=mailto:dmarc@cabinet-dentaire-pestalozzi.ch~~
+> ~~```~~
+> ~~Autres options possibles :~~  
+> ~~- `p=quarantine` → met en spam~~  
+> ~~- `p=reject` → rejette directement~~
 > 
-> ---
+> ~~---~~
 > 
-> 🛠️ **Où configurer tout ça ?**  
-> → https://manager.infomaniak.com → Domaines → DNS → Ajouter une entrée TXT
+> ~~🛠️ **Où configurer tout ça ?**~~  
+> ~~→ https://manager.infomaniak.com → Domaines → DNS → Ajouter une entrée TXT~~
 
 
 
@@ -130,9 +130,9 @@ Ne faites pas de copie du message.
 
 ## 🧠 6. À discuter avec Melissa
 
-- [ ] Souhaite-t-elle une 2e adresse ?
-- [ ] Est-elle d’accord de **ne plus jamais utiliser Bluewin pour envoyer ?**
-- [ ] Veut-elle configurer une **réponse automatique Bluewin** ("Nouvelle adresse : info@...")
+- [x] Souhaite-t-elle une 2e adresse ?
+- [x] Est-elle d’accord de **ne plus jamais utiliser Bluewin pour envoyer ?**
+- [x] Veut-elle configurer une **réponse automatique Bluewin** ("Nouvelle adresse : info@...")
 - [ ] Souhaite-t-elle un **coffre de mots de passe** (ex. Bitwarden) ?
 
 ---
