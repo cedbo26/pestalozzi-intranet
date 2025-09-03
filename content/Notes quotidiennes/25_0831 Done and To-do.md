@@ -55,6 +55,7 @@ tags:
 ### Ce qui est déjà OK
 - Les deux domaines sont bien configurés côté MX.
 - Les mails envoyés vers `@cdpestalozzi.ch` pourraient déjà fonctionner si créés manuellement.
+	>à check pour faire un alias direction `info@`
 
 ### Étape à faire sur Infomaniak
 1. Se rendre dans **Manager → Mail → Domaines**.
