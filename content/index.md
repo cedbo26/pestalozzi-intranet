@@ -4,6 +4,13 @@ description: "La page d’accueil pour retrouver toutes les infos utiles (versio
 ---
 # 🦷 QG Numérique – Pestalozzi
 
+> [!info] 📧 Transition messagerie
+> - [[Bluewin]] → redirige désormais vers [[contact@cabinet-dentaire-pestalozzi.ch]]  
+> - [[contact@cabinet-dentaire-pestalozzi.ch]] → redirige vers [[info@cabinet-dentaire-pestalozzi.ch]]  
+> - [[Mélissa]] reçoit directement tout sur `info@`  
+> - [[Aldo Allo]] doit être migré sur `contact@`  
+> - Signatures configurées sur Infomaniak + Mail Mac  
+
 > [!todo] 🔔 **Rappel important – To-do listes personnelles**
 > - 🧾 [[Mélissa]]  
 >   → Accès, sécurité, organisation mail pro
