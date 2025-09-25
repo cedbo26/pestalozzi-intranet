@@ -1,5 +1,5 @@
 ---
-title: "Cartographie – Fonctionnement Dentagest & APEX"
+title: Cartographie – Fonctionnement Dentagest & APEX
 projet: Pestalozzi
 date: 2025-09-24
 tags:
@@ -8,10 +8,6 @@ tags:
   - flux
   - imagerie
   - infrastructure
-backlinks:
-  - [[🧭 Synthèse IT]]
-  - [[Migration Dentagest – Offre AEA-250825-033]]
-  - [[💰 Billing process]]
 ---
 
 # 🦷 Cartographie – Dentagest & APEX
