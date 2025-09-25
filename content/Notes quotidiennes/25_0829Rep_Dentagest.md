@@ -24,3 +24,10 @@ tags:
 |                            | Nouveau serveur physique                     | **Fortement recommandé** vu vétusté. Offre possible par Dentagest.                                                                                                                                                     |
 |                            | Recommandations officielles remplacement     | Remplacer par un serveur sous **Windows Server 2025** (fin de support WSS2012R2 depuis 10/2023).                                                                                                                       |
 
+
+**Backlinks**
+- Suivi facturation via Dentagest [[🧾 Facturation – Dentagest]]
+- Gestion documentaire et doublons [[🗄️ Organisation des fichiers & archivage]]
+- Infrastructure serveur et accès [[💻 Infrastructure IT]]
+- Communication patient (SMS/email) [[📧 Mails & Correspondance]]
+- Vue d’ensemble et modules [[📑 Spécifications techniques]]

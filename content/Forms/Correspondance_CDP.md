@@ -15,7 +15,7 @@ backlinks:
 |----------------------------------------------|-------------|
 | Liée au formulaire de contact du site        | ☑️ |
 | Utilisée pour d'autres échanges patients/professionnels | ☑️ |
-| Autre (préciser)                             | ⬜ |
+| Autre (préciser)                             | ◻ |
 
 > Types de demandes reçues :
 
@@ -26,7 +26,7 @@ backlinks:
 | Facturation / paiements         | ☑️ |
 | Résultats médicaux              | ☑️ |
 | Informations générales          | ☑️ |
-| Autre                           | ⬜ |
+| Autre                           | ◻ |
 
 ---
 
@@ -46,7 +46,7 @@ backlinks:
 | Facturation             | ☑️ |
 | Résultats médicaux      | ☑️ |
 | Informations générales  | ☑️ |
-| Autre                   | ⬜ |
+| Autre                   | ◻ |
 
 ---
 
@@ -57,18 +57,18 @@ backlinks:
 | Mode d’envoi possible    | Sélectionné |
 |-------------------------|-------------|
 | Par mail                | ☑️ |
-| Par téléphone           | ⬜ |
+| Par téléphone           | ◻ |
 | Par courrier papier     | ☑️ |
-| Remis directement au cabinet | ⬜ |
+| Remis directement au cabinet | ◻ |
 | Remarque                | Ça dépend selon la demande du patient |
 
 > Si par mail, adresse utilisée :
 
 | Adresse utilisée                | Sélectionné |
 |---------------------------------|-------------|
-| info@cabinet-dentaire-pestalozzi.ch | ⬜ |
+| info@cabinet-dentaire-pestalozzi.ch | ◻ |
 | Adresse Bluewin                 | ☑️ |
-| Remarque                        | ⬜ |
+| Remarque                        | ◻ |
 
 ---
 
@@ -80,17 +80,17 @@ backlinks:
 |-------------------------|-------------|
 | Par mail                | ☑️ |
 | Par téléphone           | ☑️ |
-| Par courrier papier     | ⬜ |
+| Par courrier papier     | ◻ |
 | Remis directement au cabinet | ☑️ |
-| Remarque                | ⬜ |
+| Remarque                | ◻ |
 
 > Si par mail, adresse utilisée :
 
 | Adresse utilisée                | Sélectionné |
 |---------------------------------|-------------|
-| info@cabinet-dentaire-pestalozzi.ch | ⬜ |
+| info@cabinet-dentaire-pestalozzi.ch | ◻ |
 | Adresse Bluewin                 | ☑️ |
-| Remarque                        | ⬜ |
+| Remarque                        | ◻ |
 
 ---
 
@@ -102,9 +102,9 @@ backlinks:
 | Option              | Sélectionné |
 |---------------------|-------------|
 | Oui, toutes         | ☑️ |
-| Oui, la quasi-totalité | ⬜ |
-| Environ la moitié   | ⬜ |
-| Précision           | ⬜ |
+| Oui, la quasi-totalité | ◻ |
+| Environ la moitié   | ◻ |
+| Précision           | ◻ |
 
 > Qui envoie les factures ?
 
@@ -143,3 +143,10 @@ backlinks:
 ## 🔗 Liens
 - [[📁 Correspondance et flux de fichiers]]
 - [[🧭 Synthèse IT]]
+
+**Backlinks**
+- Suivi facturation via Dentagest [[🧾 Facturation – Dentagest]]
+- Gestion documentaire et doublons [[🗄️ Organisation des fichiers & archivage]]
+- Infrastructure serveur et accès [[💻 Infrastructure IT]]
+- Communication patient (SMS/email) [[📧 Mails & Correspondance]]
+- Vue d’ensemble et modules [[📑 Spécifications techniques]]

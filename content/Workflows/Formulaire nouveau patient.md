@@ -74,3 +74,10 @@ date: 2025-08-28
 - [[Correspondance_CDP]]
 - [[🧭 Synthèse IT]]
 
+
+**Backlinks**
+- Suivi facturation via Dentagest [[🧾 Facturation – Dentagest]]
+- Gestion documentaire et doublons [[🗄️ Organisation des fichiers & archivage]]
+- Infrastructure serveur et accès [[💻 Infrastructure IT]]
+- Communication patient (SMS/email) [[📧 Mails & Correspondance]]
+- Vue d’ensemble et modules [[📑 Spécifications techniques]]

@@ -12,9 +12,9 @@ backlinks:
 
 | Option                               | Sélectionné |
 |--------------------------------------|-------------|
-| Oui, toutes                          | ⬜ |
+| Oui, toutes                          | ◻ |
 | Oui, mais certains documents sont ailleurs | ☑️ |
-| Non, beaucoup d’informations sont ailleurs | ⬜ |
+| Non, beaucoup d’informations sont ailleurs | ◻ |
 | Remarque                             | Si ils sont ailleurs c’est qu’ils sont dans les dossiers papiers qui n’ont pas encore été numériser |
 
 > Si certains documents sont ailleurs :
@@ -22,9 +22,9 @@ backlinks:
 | Lieu de stockage                    | Sélectionné |
 |-------------------------------------|-------------|
 | Dossier sur l’ordinateur de Melissa | ☑️ |
-| Disque dur externe / clé USB        | ⬜ |
+| Disque dur externe / clé USB        | ◻ |
 | Documents papier (classement au cabinet) | ☑️ |
-| Remarque                            | ⬜ |
+| Remarque                            | ◻ |
 
 ---
 
@@ -36,8 +36,8 @@ backlinks:
 |-------------------------------------|-------------|
 | Dans Dentagest                      | ☑️ |
 | Dans un logiciel d’imagerie dédié   | ☑️ (Digora) |
-| Dans un dossier séparé sur l’ordinateur de Melissa | ⬜ |
-| Remarque                            | ⬜ |
+| Dans un dossier séparé sur l’ordinateur de Melissa | ◻ |
+| Remarque                            | ◻ |
 
 > Radios reliées à Dentagest ?
 
@@ -68,15 +68,15 @@ backlinks:
 |------------------------------------------|-------------|
 | info@cabinet-dentaire-pestalozzi.ch      | ☑️ |
 | Adresse Bluewin                          | ☑️ |
-| Autre                                    | ⬜ |
+| Autre                                    | ◻ |
 
 > Qui a accès aux boîtes mail ?
 
 | Personne         | Sélectionné |
 |------------------|-------------|
 | Melissa          | ☑️ |
-| Assistante       | ⬜ |
-| Hygieniste       | ⬜ |
+| Assistante       | ◻ |
+| Hygieniste       | ◻ |
 | Dentiste         | ☑️ |
 
 > Archivage des emails importants :
@@ -85,7 +85,7 @@ backlinks:
 |-------------------------|-------------|
 | Pas d’archivage particulier | ☑️ |
 | Dossiers dans la boîte mail | ☑️ |
-| Impression papier et classement | ⬜ |
+| Impression papier et classement | ◻ |
 | Autre                   | Boîte mail bluewin uniquement par le md |
 
 ---
@@ -96,30 +96,30 @@ backlinks:
 
 | Document transmis à la fiduciaire | Sélectionné |
 |-----------------------------------|-------------|
-| Factures patients privés          | ⬜ |
-| Factures assurances               | ⬜ |
-| Reçus et justificatifs de paiement | ⬜ |
-| Dépenses diverses                 | ⬜ |
+| Factures patients privés          | ◻ |
+| Factures assurances               | ◻ |
+| Reçus et justificatifs de paiement | ◻ |
+| Dépenses diverses                 | ◻ |
 | Autre                             | J’ai pas compris la question |
 
 > Fréquence d’envoi :
 
 | Option         | Sélectionné |
 |----------------|-------------|
-| Chaque semaine | ⬜ |
-| Chaque mois    | ⬜ |
-| Tous les 3 mois| ⬜ |
-| À la demande   | ⬜ |
-| Autre          | ⬜ |
+| Chaque semaine | ◻ |
+| Chaque mois    | ◻ |
+| Tous les 3 mois| ◻ |
+| À la demande   | ◻ |
+| Autre          | ◻ |
 
 > Moyen d’envoi :
 
 | Moyen     | Sélectionné |
 |-----------|-------------|
-| Email     | ⬜ |
-| Papier    | ⬜ |
-| Mixte     | ⬜ |
-| Autre     | ⬜ |
+| Email     | ◻ |
+| Papier    | ◻ |
+| Mixte     | ◻ |
+| Autre     | ◻ |
 
 ---
 
@@ -129,7 +129,7 @@ backlinks:
 
 | Type de formulaire        | Sélectionné |
 |--------------------------|-------------|
-| Sur papier uniquement     | ⬜ |
+| Sur papier uniquement     | ◻ |
 | Sur papier + numérisés   | ☑️ |
 | Remarque                 | J’ai pas encore pris le temps de numérisés mais les documents sont là |
 
@@ -137,8 +137,8 @@ backlinks:
 
 | Lieu       | Sélectionné |
 |------------|-------------|
-| Classeur au cabinet | ⬜ |
-| Armoire dédiée     | ⬜ |
+| Classeur au cabinet | ◻ |
+| Armoire dédiée     | ◻ |
 | Autre              | Bureau actuellement |
 
 > Si numérisés, où stockés :
@@ -146,7 +146,7 @@ backlinks:
 | Emplacement             | Sélectionné |
 |-------------------------|-------------|
 | Ordinateur de Melissa   | ☑️ |
-| Disque dur externe      | ⬜ |
+| Disque dur externe      | ◻ |
 | Autre                   | Je ne sais pas où exactement en espérant que Dentagest t’informe correctement |
 
 ---
@@ -187,12 +187,19 @@ backlinks:
 
 | Mode de classement           | Sélectionné |
 |-----------------------------|-------------|
-| Par patient                  | ⬜ |
-| Par date                     | ⬜ |
+| Par patient                  | ◻ |
+| Par date                     | ◻ |
 | Par type de document         | ☑️ |
 | Pas de classement particulier| ☑️ |
-| Autre                        | ⬜ |
+| Autre                        | ◻ |
 
 ## 🔗 Liens
 - [[🗄️ Organisation des fichiers & archivage]]
 - [[🧭 Synthèse IT]]
+
+**Backlinks**
+- Suivi facturation via Dentagest [[🧾 Facturation – Dentagest]]
+- Gestion documentaire et doublons [[🗄️ Organisation des fichiers & archivage]]
+- Infrastructure serveur et accès [[💻 Infrastructure IT]]
+- Communication patient (SMS/email) [[📧 Mails & Correspondance]]
+- Vue d’ensemble et modules [[📑 Spécifications techniques]]

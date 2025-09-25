@@ -11,8 +11,8 @@ backlinks:
 | Option                                    | Choisi |
 | ----------------------------------------- | ------ |
 | Directement depuis Dentagest (export XML) | ☑️     |
-| Impression et envoi papier                | ⬜      |
-| Autre méthode                             | ⬜      |
+| Impression et envoi papier                | ◻      |
+| Autre méthode                             | ◻      |
 
 ---
 
@@ -45,7 +45,7 @@ backlinks:
 | Option | Choisi |
 |--------|--------|
 | Depuis Dentagest | ☑️ |
-| Par courrier papier | ⬜ |
+| Par courrier papier | ◻ |
 | Autre | CMD envoie par eux |
 | Envoi fait par toi ? | Non |
 
@@ -53,18 +53,18 @@ backlinks:
 
 | Option | Choisi |
 |--------|--------|
-| Depuis Dentagest | ⬜ |
+| Depuis Dentagest | ◻ |
 | Par courrier papier | ☑️ |
-| Autre | ⬜ |
+| Autre | ◻ |
 | Envoi fait par toi ? | Oui |
 
 **Aide sociale / Service social**
 
 | Option | Choisi |
 |--------|--------|
-| Depuis Dentagest | ⬜ |
+| Depuis Dentagest | ◻ |
 | Par courrier papier | ☑️ |
-| Autre | ⬜ |
+| Autre | ◻ |
 | Envoi fait par toi ? | Oui |
 
 ---
@@ -76,7 +76,7 @@ backlinks:
 | Dentagest (module suivi intégré) | ☑️ |
 | Relevé fourni par la Caisse des Médecins | ☑️ |
 | Contrôle manuel | ☑️ |
-| Autre | ⬜ |
+| Autre | ◻ |
 
 ---
 
@@ -84,8 +84,8 @@ backlinks:
 
 | Option | Choisi |
 |--------|--------|
-| Relance automatique par Dentagest | ⬜ |
-| Relance manuelle par moi-même | ⬜ |
+| Relance automatique par Dentagest | ◻ |
+| Relance manuelle par moi-même | ◻ |
 | La Caisse des Médecins gère le recouvrement | ☑️ |
 | Autre | Ça dépend si la créance a été rachetée ou non |
 
@@ -103,3 +103,10 @@ backlinks:
 ## 🔗 Liens
 - [[💰 Billing process]]
 - [[🧭 Synthèse IT]]
+
+**Backlinks**
+- Suivi facturation via Dentagest [[🧾 Facturation – Dentagest]]
+- Gestion documentaire et doublons [[🗄️ Organisation des fichiers & archivage]]
+- Infrastructure serveur et accès [[💻 Infrastructure IT]]
+- Communication patient (SMS/email) [[📧 Mails & Correspondance]]
+- Vue d’ensemble et modules [[📑 Spécifications techniques]]

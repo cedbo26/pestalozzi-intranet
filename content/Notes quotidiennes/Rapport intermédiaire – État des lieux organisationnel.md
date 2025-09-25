@@ -382,3 +382,9 @@ Actuellement, chaque entité conserve sa propre patientèle, ses encaissements e
 - [ ] Consolider les réponses et intégrer au rapport  
 - [ ] Préparer la stratégie de reprise progressive du cabinet Duc  
 - [ ] Définir le plan de transition organisationnelle à horizon 2027
+**Backlinks**
+- Suivi facturation via Dentagest [[🧾 Facturation – Dentagest]]
+- Gestion documentaire et doublons [[🗄️ Organisation des fichiers & archivage]]
+- Infrastructure serveur et accès [[💻 Infrastructure IT]]
+- Communication patient (SMS/email) [[📧 Mails & Correspondance]]
+- Vue d’ensemble et modules [[📑 Spécifications techniques]]

@@ -65,3 +65,10 @@ backlinks:
 >   - [[Acces_IT_CDP]]
 >   - [[Organisation_Fichiers_CDP]]
 >   - [[Correspondance_CDP]]
+
+**Backlinks**
+- Suivi facturation via Dentagest [[🧾 Facturation – Dentagest]]
+- Gestion documentaire et doublons [[🗄️ Organisation des fichiers & archivage]]
+- Infrastructure serveur et accès [[💻 Infrastructure IT]]
+- Communication patient (SMS/email) [[📧 Mails & Correspondance]]
+- Vue d’ensemble et modules [[📑 Spécifications techniques]]

@@ -35,7 +35,7 @@ backlinks:
 | Collaborateurs Pestalozzi | ☑️          |
 | Collaborateurs RDL4       | ☑️          |
 | Visiteurs / techniciens   | ☑️          |
-| Autre                     | ⬜           |
+| Autre                     | ◻           |
 
 > Précisions sur l’accès physique (noms, rôles, situations)
 
@@ -108,11 +108,11 @@ backlinks:
 | Outlook           | ☑️          |
 | Suite bureautique | ☑️          |
 | Navigateur        | ☑️          |
-| Autre             | ⬜           |
+| Autre             | ◻           |
 
 > Précisions sur les autres logiciels (nom + usage)
 
-- ⬜
+- ◻
 
 ---
 
@@ -124,7 +124,7 @@ backlinks:
 |---------------------------------------------|-------------|
 | info@cabinet-dentaire-pestalozzi.ch         | ☑️ |
 | Bluewin de Mélissa                          | ☑️ |
-| Autre                                       | ⬜ |
+| Autre                                       | ◻ |
 
 > Adresse Bluewin de Mélissa
 
@@ -137,15 +137,15 @@ backlinks:
 | Outlook sur ordinateur | ☑️ |
 | Webmail                | ☑️ |
 | Application mobile     | ☑️ |
-| Autre                  | ⬜ |
+| Autre                  | ◻ |
 
 > Des personnes autres que Mélissa peuvent-elles lire ces mails depuis cet ordinateur ?
 
 | Option     | Sélectionné |
 |------------|-------------|
-| Oui        | ⬜ |
-| Non        | ⬜ |
-| Ne sais pas| ⬜ |
+| Oui        | ◻ |
+| Non        | ◻ |
+| Ne sais pas| ◻ |
 | **(non renseigné)** | ☑️ |
 
 > Si oui / incertain, préciser qui et dans quelles conditions
@@ -172,12 +172,12 @@ backlinks:
 
 | Emplacement            | Sélectionné |
 |------------------------|-------------|
-| Disque local           | ⬜ |
+| Disque local           | ◻ |
 | Serveur du cabinet     | ☑️ |
-| Disque dur externe     | ⬜ |
-| Clé USB                | ⬜ |
-| Cloud                  | ⬜ |
-| Autre                  | ⬜ |
+| Disque dur externe     | ◻ |
+| Clé USB                | ◻ |
+| Cloud                  | ◻ |
+| Autre                  | ◻ |
 
 > Précisions (cloud / chemins de dossiers)
 
@@ -222,3 +222,10 @@ backlinks:
 ## 🔗 Liens
 - [[🖥️ Fonctionnement IT – Mélissa]]
 - [[🧭 Synthèse IT]]
+
+**Backlinks**
+- Suivi facturation via Dentagest [[🧾 Facturation – Dentagest]]
+- Gestion documentaire et doublons [[🗄️ Organisation des fichiers & archivage]]
+- Infrastructure serveur et accès [[💻 Infrastructure IT]]
+- Communication patient (SMS/email) [[📧 Mails & Correspondance]]
+- Vue d’ensemble et modules [[📑 Spécifications techniques]]

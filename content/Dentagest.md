@@ -145,10 +145,53 @@ backlinks:
 > | Nouveau serveur | Conditions + tarifs |
 > | Recommandations officielles | Face à obsolescence 2012 R2 |
 
+> [!info] 🔗 Suivi des réponses
+> Les éléments de réponse transmis par Dentagest sont documentés dans la note [[25_0829Rep_Dentagest]].
+
+
+#### 📌 Réponses attendues
+1. Clarification de l’architecture serveur.  
+2. Procédures de sauvegarde / restauration.  
+3. Options Cloud vs nouveau serveur.  
+4. Position face à l’OS obsolète (Windows Storage Server 2012 R2).  
+
+---
+
+#### ✅ Réponses reçues
+
+##### 1. Architecture serveur
+- Dentagest + Digora sont bien hébergés sur le serveur local.  
+- Les postes clients se connectent via le réseau interne.  
+- Modèle de fonctionnement ERP classique, avec rôles distincts (admin, médecins, assistantes).  
+
+##### 2. Sauvegardes
+- Module intégré permettant des sauvegardes planifiées.  
+- Tests de restauration possibles.  
+- La mise en œuvre dépend du prestataire IT (non gérée directement par Dentagest).  
+
+##### 3. Cloud vs nouveau serveur
+- Nouvelle offre **Dentagest Cloud** (hébergée en Suisse).  
+- Avantages : gestion multi-sites, accès à distance sécurisé, mises à jour automatiques.  
+- Alternative : migration vers un **nouveau serveur physique** sous Windows Server supporté.  
+
+##### 4. Fin de support WSS2012R2
+- Confirmation que Windows Storage Server 2012 R2 est **hors support**.  
+- Recommandation officielle : migrer vers serveur Windows récent **ou** basculer sur l’offre Cloud.  
+
+---
+
+#### 📊 Synthèse
+Toutes les questions listées dans *Réponses attendues* ont reçu une réponse :  
+- ✅ Architecture clarifiée  
+- ✅ Procédures de sauvegarde précisées  
+- ✅ Options Cloud/serveur détaillées  
+- ✅ Recommandations OS confirmées  
+
+
 ---
 
 ## ⚠️ Risques immédiats
-- ❌ OS serveur obsolète (EoL Microsoft octobre 2023)  
+- ❌ OS serveur obsolète (EoL Microsoft octobre 2023)
 - ❌ Dépendance au serveur Duc (pas de maîtrise interne)  
 - ❌ Sauvegardes inconnues → risque perte données patientèle / facturation  
 - ❌ Accès informels (TeamViewer, RDL4) → confidentialité non garantie  
@@ -169,3 +212,9 @@ backlinks:
 - [[🧭 Synthèse IT]]  
 - [[🖥️ Fonctionnement IT – Mélissa]]  
 - [[💰 Billing process]]
+**Backlinks**
+- Suivi facturation via Dentagest [[🧾 Facturation – Dentagest]]
+- Gestion documentaire et doublons [[🗄️ Organisation des fichiers & archivage]]
+- Infrastructure serveur et accès [[💻 Infrastructure IT]]
+- Communication patient (SMS/email) [[📧 Mails & Correspondance]]
+- Vue d’ensemble et modules [[📑 Spécifications techniques]]
